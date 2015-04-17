@@ -89,13 +89,6 @@ function hk_translations_user_default_permissions() {
     'module' => 'entity_translation',
   );
 
-  // Exported permission: 'translate crm_core_activity entities'.
-  $permissions['translate crm_core_activity entities'] = array(
-    'name' => 'translate crm_core_activity entities',
-    'roles' => array(),
-    'module' => 'entity_translation',
-  );
-
   // Exported permission: 'translate interface'.
   $permissions['translate interface'] = array(
     'name' => 'translate interface',
@@ -112,13 +105,6 @@ function hk_translations_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
     ),
-    'module' => 'entity_translation',
-  );
-
-  // Exported permission: 'translate taxonomy_term entities'.
-  $permissions['translate taxonomy_term entities'] = array(
-    'name' => 'translate taxonomy_term entities',
-    'roles' => array(),
     'module' => 'entity_translation',
   );
 
