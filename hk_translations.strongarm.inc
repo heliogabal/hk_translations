@@ -70,6 +70,12 @@ function hk_translations_strongarm() {
       ),
       'file' => 'includes/locale.inc',
     ),
+    'weight_language' => array(
+      'callbacks' => array(
+        'language' => 'weight_language_provider_callback',
+      ),
+      'file' => 'sites/all/modules/contrib/1876362/weight_language.module',
+    ),
     'language-default' => array(
       'callbacks' => array(
         'language' => 'language_from_default',
@@ -146,7 +152,8 @@ function hk_translations_strongarm() {
     'locale-user' => '-9',
     'locale-browser' => '-8',
     'locale-session' => '-7',
-    'language-default' => '-6',
+    'weight_language' => '-6',
+    'language-default' => '-5',
   );
   $export['locale_language_providers_weight_language'] = $strongarm;
 
@@ -161,6 +168,7 @@ function hk_translations_strongarm() {
     'locale-user' => '-7',
     'locale-browser' => '-6',
     'language-default' => '-5',
+    'weight_language' => '0',
   );
   $export['locale_language_providers_weight_language_content'] = $strongarm;
 
