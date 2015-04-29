@@ -81,6 +81,14 @@ function hk_translations_translations_defaults() {
     'plid' => 0,
     'plural' => 0,
   );
+  $translations['de:field']['128f9059fa6ce2244561a4a44f8b788d'] = array(
+    'source' => 'Occupancy',
+    'context' => 'field_wug_occupancy:residential_commercial_building:label',
+    'location' => 'field:field_wug_occupancy:residential_commercial_building:label',
+    'translation' => 'Vermietungsstand',
+    'plid' => 0,
+    'plural' => 0,
+  );
   $translations['de:field']['1429a45143f11d9fd6d820733784043b'] = array(
     'source' => 'Description',
     'context' => 'description_field:heating_type:label',
@@ -110,6 +118,14 @@ function hk_translations_translations_defaults() {
     'context' => 'field_status_quo:#allowed_values:Renovated',
     'location' => 'field:field_status_quo:#allowed_values:Renovated',
     'translation' => 'Renoviert',
+    'plid' => 0,
+    'plural' => 0,
+  );
+  $translations['de:field']['24b9b571a9495969f4df8add000d2e53'] = array(
+    'source' => 'No. of units',
+    'context' => 'field_wug_no_of_units:objekt:label',
+    'location' => 'field:field_wug_no_of_units:objekt:label',
+    'translation' => 'Anzahl Wohneinheiten',
     'plid' => 0,
     'plural' => 0,
   );
@@ -161,11 +177,35 @@ function hk_translations_translations_defaults() {
     'plid' => 0,
     'plural' => 0,
   );
+  $translations['de:field']['70568509a2a04b090a20beaceba0a2ce'] = array(
+    'source' => 'Optional construction site',
+    'context' => 'field_wug_opt_constrruct:objekt:label',
+    'location' => 'field:field_wug_opt_constrruct:objekt:label',
+    'translation' => 'Neubaureserve',
+    'plid' => 0,
+    'plural' => 0,
+  );
   $translations['de:field']['9aca49c662bf4100cf04c28e526cb022'] = array(
     'source' => 'Completely Refurbished',
     'context' => 'field_status_quo:#allowed_values:Completely Refurbished',
     'location' => 'field:field_status_quo:#allowed_values:Completely Refurbished',
     'translation' => 'Totalsaniert',
+    'plid' => 0,
+    'plural' => 0,
+  );
+  $translations['de:field']['9e2d976649fd4f2ef5c32b30160e489a'] = array(
+    'source' => 'Actual net rental income p.a.',
+    'context' => 'field_wug_act_rent:residential_commercial_building:label',
+    'location' => 'field:field_wug_act_rent:residential_commercial_building:label',
+    'translation' => 'Nettokaltmieteinnahmen IST p.a.',
+    'plid' => 0,
+    'plural' => 0,
+  );
+  $translations['de:field']['a809bbfc627e995c623576da73ac3665'] = array(
+    'source' => 'Total space',
+    'context' => 'field_wug_total_space:objekt:label',
+    'location' => 'field:field_wug_total_space:objekt:label',
+    'translation' => 'Wohn-/Gewerbefläche',
     'plid' => 0,
     'plural' => 0,
   );
@@ -222,6 +262,14 @@ function hk_translations_translations_defaults() {
     'context' => 'field_kategorie:objekt:label',
     'location' => 'field:field_kategorie:objekt:label',
     'translation' => 'Kategorie',
+    'plid' => 0,
+    'plural' => 0,
+  );
+  $translations['de:field']['d648c491fdca2ebe464d42d118bdfd2c'] = array(
+    'source' => 'Actual net rental income p.a.',
+    'context' => 'field_wug_act_rent:objekt:label',
+    'location' => 'field:field_wug_act_rent:objekt:label',
+    'translation' => 'Nettokaltmieteinnahmen IST p.a.',
     'plid' => 0,
     'plural' => 0,
   );
@@ -286,6 +334,14 @@ function hk_translations_translations_defaults() {
     'context' => 'field_object_other:objekt:label',
     'location' => 'field:field_object_other:objekt:label',
     'translation' => 'Sonstiges',
+    'plid' => 0,
+    'plural' => 0,
+  );
+  $translations['de:field']['f6332aa8edb1a55b85c7b2e3272e5de0'] = array(
+    'source' => 'Occupancy',
+    'context' => 'field_wug_occupancy:objekt:label',
+    'location' => 'field:field_wug_occupancy:objekt:label',
+    'translation' => 'Vermietungsstand',
     'plid' => 0,
     'plural' => 0,
   );
