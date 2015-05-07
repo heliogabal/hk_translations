@@ -81,6 +81,7 @@ function hk_translations_strongarm() {
         'language' => 'locale_language_from_browser',
       ),
       'file' => 'includes/locale.inc',
+      'cache' => 0,
     ),
     'language-default' => array(
       'callbacks' => array(
