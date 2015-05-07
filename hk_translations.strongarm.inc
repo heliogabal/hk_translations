@@ -70,6 +70,18 @@ function hk_translations_strongarm() {
       ),
       'file' => 'includes/locale.inc',
     ),
+    'locale-user' => array(
+      'callbacks' => array(
+        'language' => 'locale_language_from_user',
+      ),
+      'file' => 'includes/locale.inc',
+    ),
+    'locale-browser' => array(
+      'callbacks' => array(
+        'language' => 'locale_language_from_browser',
+      ),
+      'file' => 'includes/locale.inc',
+    ),
     'language-default' => array(
       'callbacks' => array(
         'language' => 'language_from_default',
@@ -142,9 +154,9 @@ function hk_translations_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'locale_language_providers_weight_language';
   $strongarm->value = array(
-    'locale-url' => '-10',
-    'locale-user' => '-9',
     'locale-browser' => '-8',
+    'locale-user' => '-9',
+    'locale-url' => '-10',
     'locale-session' => '-7',
     'weight_language' => '-6',
     'language-default' => '-5',
@@ -161,8 +173,8 @@ function hk_translations_strongarm() {
     'locale-session' => '-8',
     'locale-user' => '-7',
     'locale-browser' => '-6',
-    'language-default' => '-5',
-    'weight_language' => '0',
+    'weight_language' => '-5',
+    'language-default' => '-4',
   );
   $export['locale_language_providers_weight_language_content'] = $strongarm;
 
