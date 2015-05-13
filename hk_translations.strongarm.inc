@@ -76,13 +76,6 @@ function hk_translations_strongarm() {
       ),
       'file' => 'includes/locale.inc',
     ),
-    'locale-browser' => array(
-      'callbacks' => array(
-        'language' => 'locale_language_from_browser',
-      ),
-      'file' => 'includes/locale.inc',
-      'cache' => 0,
-    ),
     'language-default' => array(
       'callbacks' => array(
         'language' => 'language_from_default',
@@ -155,9 +148,9 @@ function hk_translations_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'locale_language_providers_weight_language';
   $strongarm->value = array(
-    'locale-browser' => '-8',
     'locale-user' => '-9',
     'locale-url' => '-10',
+    'locale-browser' => '-8',
     'locale-session' => '-7',
     'weight_language' => '-6',
     'language-default' => '-5',
