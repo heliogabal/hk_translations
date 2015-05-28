@@ -169,14 +169,6 @@ function hk_translations_translations_defaults() {
     'plid' => 0,
     'plural' => 0,
   );
-  $translations['de:menu']['198b555863941ba6442a4bcd4ee956b2'] = array(
-    'source' => 'Wohnungen',
-    'context' => 'item:1358:title',
-    'location' => 'menu:item:1358:title',
-    'translation' => 'Wohnungen',
-    'plid' => 0,
-    'plural' => 0,
-  );
   $translations['de:menu']['33b46ecca817ab4f2762abc45f6dd308'] = array(
     'source' => 'Rental apartment',
     'context' => 'item:1407:title',
@@ -222,14 +214,6 @@ function hk_translations_translations_defaults() {
     'context' => 'item:1402:title',
     'location' => 'menu:item:1402:title',
     'translation' => 'Vermietete Wohnungen',
-    'plid' => 0,
-    'plural' => 0,
-  );
-  $translations['de:menu']['518c324da67b662f6f016a3cdafc6b5f'] = array(
-    'source' => 'Objekte',
-    'context' => 'item:1357:title',
-    'location' => 'menu:item:1357:title',
-    'translation' => 'Objekte',
     'plid' => 0,
     'plural' => 0,
   );
@@ -377,6 +361,14 @@ function hk_translations_translations_defaults() {
     'plid' => 0,
     'plural' => 0,
   );
+  $translations['de:views']['01a7698d97121400e3dfac999127eeb7'] = array(
+    'source' => 'Titel',
+    'context' => 'admin:page_4:field:node:title_editable:label',
+    'location' => 'views:admin:page_4:field:node:title_editable:label',
+    'translation' => 'Titel',
+    'plid' => 0,
+    'plural' => 0,
+  );
   $translations['de:views']['01fa20c98e58058750945b5f06557285'] = array(
     'source' => 'Living space',
     'context' => 'karten:kaufen:field:search_api_index_solr_node_index:field_apart_living_space:label',
@@ -470,6 +462,14 @@ function hk_translations_translations_defaults() {
     'context' => 'tmgmt_ui_job_items:block:use_more_text',
     'location' => 'views:tmgmt_ui_job_items:block:use_more_text',
     'translation' => 'mehr',
+    'plid' => 0,
+    'plural' => 0,
+  );
+  $translations['de:views']['05cdfe8131e5788ed960cab15857be8b'] = array(
+    'source' => 'Reset',
+    'context' => 'crm_activities_by_contact:page:exposed_form:reset_button_label',
+    'location' => 'views:crm_activities_by_contact:page:exposed_form:reset_button_label',
+    'translation' => 'Zurücksetzen',
     'plid' => 0,
     'plural' => 0,
   );
@@ -981,6 +981,14 @@ function hk_translations_translations_defaults() {
     'source' => 'more',
     'context' => 'backlinks:default:use_more_text',
     'location' => 'views:backlinks:default:use_more_text',
+    'translation' => 'mehr',
+    'plid' => 0,
+    'plural' => 0,
+  );
+  $translations['de:views']['1bf2dd2c0472b4e704ef5036bef5d36f'] = array(
+    'source' => 'more',
+    'context' => 'apartment:attachment_1:use_more_text',
+    'location' => 'views:apartment:attachment_1:use_more_text',
     'translation' => 'mehr',
     'plid' => 0,
     'plural' => 0,
@@ -1641,6 +1649,18 @@ function hk_translations_translations_defaults() {
     'plid' => 0,
     'plural' => 0,
   );
+  $translations['de:views']['3593451f6ec1bd4fa9e0c736c215075f'] = array(
+    'source' => '[field_object_images]
+<h2>[field_object_ref_title_field]</h2>
+<p>[field_object_ref_field_object_txt_map_popup_value]</p>
+<div class="wo"><i class="icon-hk-icon-location"></i>[field_object_ref_field_address_thoroughfare], [field_bezirk]</div>
+<div class="tablehead"><span class="id">Object ID</span><span class="rooms">Rooms</span><span class="space">Space (.ca)</span><span class="price">Price</span><span class="more">&nbsp;</span></div>',
+    'context' => 'karten:default:field:search_api_index_solr_node_index:field_object_ref_field_object_txt_map_popup_value:alter:text',
+    'location' => 'views:karten:default:field:search_api_index_solr_node_index:field_object_ref_field_object_txt_map_popup_value:alter:text',
+    'translation' => '[field_object_images] <h2>[field_object_ref_title_field]</h2> <p>[field_object_ref_field_object_txt_map_popup_value]</p> <div class="wo"><i class="icon-hk-icon-location"></i>[field_object_ref_field_address_thoroughfare], [field_bezirk]</div> <div class="tablehead"><span class="id">Objekt ID</span><span class="rooms">Zimmer</span><span class="space">Fläche (.ca)</span><span class="price">Preis</span><span class="more">&nbsp;</span></div>',
+    'plid' => 0,
+    'plural' => 0,
+  );
   $translations['de:views']['359b173b728f148f15cf9ece8fe9a5c9'] = array(
     'source' => 'Role',
     'context' => 'admin_views_user:default:filter:users_roles:rid:expose:label',
@@ -1657,6 +1677,14 @@ function hk_translations_translations_defaults() {
     'plid' => 0,
     'plural' => 0,
   );
+  $translations['de:views']['35df30f59c83f2c0c0a14c2b15ce4214'] = array(
+    'source' => 'more',
+    'context' => 'apartment:panel_pane_3:use_more_text',
+    'location' => 'views:apartment:panel_pane_3:use_more_text',
+    'translation' => 'mehr',
+    'plid' => 0,
+    'plural' => 0,
+  );
   $translations['de:views']['360daaa4e1be76f4c24158399a604396'] = array(
     'source' => 'Translator',
     'context' => 'tmgmt_local_task_overview:my_tasks:relationship:tmgmt_local_task:translator:label',
@@ -1670,14 +1698,6 @@ function hk_translations_translations_defaults() {
     'context' => 'visitor_log:default:pager:expose:items_per_page_options_all_label',
     'location' => 'views:visitor_log:default:pager:expose:items_per_page_options_all_label',
     'translation' => '- Alle -',
-    'plid' => 0,
-    'plural' => 0,
-  );
-  $translations['de:views']['3689ceca9acafa79602d64f86e1fcd33'] = array(
-    'source' => 'mehr',
-    'context' => 'apartment:block_1:use_more_text',
-    'location' => 'views:apartment:block_1:use_more_text',
-    'translation' => 'mehr',
     'plid' => 0,
     'plural' => 0,
   );
@@ -1705,6 +1725,14 @@ function hk_translations_translations_defaults() {
     'plid' => 0,
     'plural' => 0,
   );
+  $translations['de:views']['383687ff4f60eac89e42cce26c12043f'] = array(
+    'source' => 'Country',
+    'context' => 'order_locations:default:filter:ip_geoloc:country:expose:label',
+    'location' => 'views:order_locations:default:filter:ip_geoloc:country:expose:label',
+    'translation' => 'Land',
+    'plid' => 0,
+    'plural' => 0,
+  );
   $translations['de:views']['38757a2a381efab680c9f7c4b251f7b2'] = array(
     'source' => 'Apply',
     'context' => 'admin_views_taxonomy_term:default:exposed_form:submit_button',
@@ -1718,14 +1746,6 @@ function hk_translations_translations_defaults() {
     'context' => 'tmgmt_local_task_overview:closed:filter:tmgmt_local_task:title:expose:label',
     'location' => 'views:tmgmt_local_task_overview:closed:filter:tmgmt_local_task:title:expose:label',
     'translation' => 'Titel',
-    'plid' => 0,
-    'plural' => 0,
-  );
-  $translations['de:views']['3917cdd6ae073923983932e728b0ec6b'] = array(
-    'source' => 'mehr',
-    'context' => 'apartment:panel_pane_2:use_more_text',
-    'location' => 'views:apartment:panel_pane_2:use_more_text',
-    'translation' => 'mehr',
     'plid' => 0,
     'plural' => 0,
   );
@@ -1854,6 +1874,14 @@ function hk_translations_translations_defaults() {
     'context' => 'workflow_summary:default:field:users:name:label',
     'location' => 'views:workflow_summary:default:field:users:name:label',
     'translation' => 'Autor',
+    'plid' => 0,
+    'plural' => 0,
+  );
+  $translations['de:views']['3dd4c8ee91e7235276c874a39f50ea4f'] = array(
+    'source' => 'Reset',
+    'context' => 'crm_activities_by_contact:default:exposed_form:reset_button_label',
+    'location' => 'views:crm_activities_by_contact:default:exposed_form:reset_button_label',
+    'translation' => 'Zurücksetzen',
     'plid' => 0,
     'plural' => 0,
   );
@@ -2137,6 +2165,22 @@ function hk_translations_translations_defaults() {
     'plid' => 0,
     'plural' => 0,
   );
+  $translations['de:views']['475ace734dbb6a5852b14a6ee51ac4be'] = array(
+    'source' => 'Other',
+    'context' => 'expose:default:field:field_data_field_apart_other:field_apart_other:label',
+    'location' => 'views:expose:default:field:field_data_field_apart_other:field_apart_other:label',
+    'translation' => 'Sonstiges',
+    'plid' => 0,
+    'plural' => 0,
+  );
+  $translations['de:views']['47d1e5264d7f9cede8b552d15219869c'] = array(
+    'source' => 'Language',
+    'context' => 'admin:page_2:filter:node:language:expose:label',
+    'location' => 'views:admin:page_2:filter:node:language:expose:label',
+    'translation' => 'Sprache',
+    'plid' => 0,
+    'plural' => 0,
+  );
   $translations['de:views']['480e472011b8cc8ae6308f035a37d71d'] = array(
     'source' => 'Items per page',
     'context' => 'backlinks:default:pager:expose:items_per_page_label',
@@ -2321,6 +2365,14 @@ function hk_translations_translations_defaults() {
     'plid' => 0,
     'plural' => 0,
   );
+  $translations['de:views']['4db2f77a9d17f42655776f621ed39df6'] = array(
+    'source' => 'Location',
+    'context' => 'expose:default:field:field_data_field_apart_location:field_apart_location:label',
+    'location' => 'views:expose:default:field:field_data_field_apart_location:field_apart_location:label',
+    'translation' => 'Lage',
+    'plid' => 0,
+    'plural' => 0,
+  );
   $translations['de:views']['4db6faf4f0b4bfea00a7f5a8a0178271'] = array(
     'source' => 'My Tasks',
     'context' => 'tmgmt_local_task_overview:my_tasks:title',
@@ -2438,6 +2490,14 @@ function hk_translations_translations_defaults() {
     'context' => 'admin_views_node:system_1:exposed_form:reset_button_label',
     'location' => 'views:admin_views_node:system_1:exposed_form:reset_button_label',
     'translation' => 'Zurück setzen',
+    'plid' => 0,
+    'plural' => 0,
+  );
+  $translations['de:views']['5140accc1b711e571acd246637cab028'] = array(
+    'source' => 'more',
+    'context' => 'apartment:objektadresse:use_more_text',
+    'location' => 'views:apartment:objektadresse:use_more_text',
+    'translation' => 'mehr',
     'plid' => 0,
     'plural' => 0,
   );
@@ -2654,14 +2714,6 @@ function hk_translations_translations_defaults() {
     'context' => 'redirects:page_admin:exposed_form:submit_button',
     'location' => 'views:redirects:page_admin:exposed_form:submit_button',
     'translation' => 'Anwenden',
-    'plid' => 0,
-    'plural' => 0,
-  );
-  $translations['de:views']['59f3ed8740b2b0e84db28b36a3e3cc86'] = array(
-    'source' => '<a href="/node/[field_obj_apartments-target_id]?destination=/admin/content/dash" title="Wohnung ansehen">[field_obj_apartments]</a> | <a href="/node/[field_obj_apartments-target_id]/edit?destination=/admin/content/dash" title="Wohnung bearbeiten">bearbeiten</a> | <a href="/node/[field_obj_apartments-target_id]/translate?destination=/admin/content/dash" title="Wohnung übersetzen">übersetzen</a>',
-    'context' => 'admin:default:field:field_data_field_obj_apartments:field_obj_apartments:alter:text',
-    'location' => 'views:admin:default:field:field_data_field_obj_apartments:field_obj_apartments:alter:text',
-    'translation' => 'Bearbeiten',
     'plid' => 0,
     'plural' => 0,
   );
@@ -3222,6 +3274,14 @@ function hk_translations_translations_defaults() {
     'context' => 'admin_views_file:default:noop',
     'location' => 'views:admin_views_file:default:noop',
     'translation' => '- Aktion wählen -',
+    'plid' => 0,
+    'plural' => 0,
+  );
+  $translations['de:views']['704fc8f6545354246e769b26b6512f7e'] = array(
+    'source' => 'more',
+    'context' => 'apartment:panel_pane_2:use_more_text',
+    'location' => 'views:apartment:panel_pane_2:use_more_text',
+    'translation' => 'mehr',
     'plid' => 0,
     'plural' => 0,
   );
@@ -3873,14 +3933,6 @@ function hk_translations_translations_defaults() {
     'plid' => 0,
     'plural' => 0,
   );
-  $translations['de:views']['8ab007242c9a88d2a2eac338bda172b8'] = array(
-    'source' => 'mehr',
-    'context' => 'apartment:panel_pane_1:use_more_text',
-    'location' => 'views:apartment:panel_pane_1:use_more_text',
-    'translation' => 'mehr',
-    'plid' => 0,
-    'plural' => 0,
-  );
   $translations['de:views']['8ad3edd4503fcaffbb41ebe4a04dc642'] = array(
     'source' => '- All -',
     'context' => 'media_default:default:pager:expose:items_per_page_options_all_label',
@@ -3934,6 +3986,14 @@ function hk_translations_translations_defaults() {
     'context' => 'tmgmt_ui_job_overview:page:use_more_text',
     'location' => 'views:tmgmt_ui_job_overview:page:use_more_text',
     'translation' => 'mehr',
+    'plid' => 0,
+    'plural' => 0,
+  );
+  $translations['de:views']['8ec7ce35dc8a9b66cfb75689979ab7bc'] = array(
+    'source' => 'Published',
+    'context' => 'admin:default:filter:node:status:expose:label',
+    'location' => 'views:admin:default:filter:node:status:expose:label',
+    'translation' => 'Veröffentlicht',
     'plid' => 0,
     'plural' => 0,
   );
@@ -4073,6 +4133,14 @@ function hk_translations_translations_defaults() {
     'plid' => 0,
     'plural' => 0,
   );
+  $translations['de:views']['936034f1f588eed1c4210c4c2a8cc283'] = array(
+    'source' => 'more',
+    'context' => 'apartment:panel_pane_1:use_more_text',
+    'location' => 'views:apartment:panel_pane_1:use_more_text',
+    'translation' => 'mehr',
+    'plid' => 0,
+    'plural' => 0,
+  );
   $translations['de:views']['938785435a23b8007447a03fc7e81768'] = array(
     'source' => 'more',
     'context' => 'frontpage:default:use_more_text',
@@ -4086,6 +4154,14 @@ function hk_translations_translations_defaults() {
     'context' => 'admin_views_node:default:exposed_form:reset_button_label',
     'location' => 'views:admin_views_node:default:exposed_form:reset_button_label',
     'translation' => 'Zurück setzen',
+    'plid' => 0,
+    'plural' => 0,
+  );
+  $translations['de:views']['93e7388309c55cf1a7485f7250b4591e'] = array(
+    'source' => 'Rooms',
+    'context' => 'expose:default:field:field_data_field_apart_rooms:field_apart_rooms:label',
+    'location' => 'views:expose:default:field:field_data_field_apart_rooms:field_apart_rooms:label',
+    'translation' => 'Zimmer',
     'plid' => 0,
     'plural' => 0,
   );
@@ -4190,6 +4266,14 @@ function hk_translations_translations_defaults() {
     'context' => 'admin_views_user:default:action::views_bulk_operations_delete_item',
     'location' => 'views:admin_views_user:default:action::views_bulk_operations_delete_item',
     'translation' => 'Löschen',
+    'plid' => 0,
+    'plural' => 0,
+  );
+  $translations['de:views']['96c94adcfe9ff1d9545bc45b0c5d9111'] = array(
+    'source' => 'Space (.ca)',
+    'context' => 'expose:default:field:field_data_field_apart_living_space:field_apart_living_space:label',
+    'location' => 'views:expose:default:field:field_data_field_apart_living_space:field_apart_living_space:label',
+    'translation' => 'Fläche (ca.)',
     'plid' => 0,
     'plural' => 0,
   );
@@ -4353,6 +4437,14 @@ function hk_translations_translations_defaults() {
     'plid' => 0,
     'plural' => 0,
   );
+  $translations['de:views']['9bb3ddcf8b17866ad3220f4f4c8d4180'] = array(
+    'source' => 'Language',
+    'context' => 'admin:page_2:field:node:language:label',
+    'location' => 'views:admin:page_2:field:node:language:label',
+    'translation' => 'Sprache',
+    'plid' => 0,
+    'plural' => 0,
+  );
   $translations['de:views']['9c8b0c740c54935bcfc11e0f15232389'] = array(
     'source' => 'more',
     'context' => 'karten:mieten:use_more_text',
@@ -4382,6 +4474,14 @@ function hk_translations_translations_defaults() {
     'context' => 'tmgmt_ui_job_item_messages:default:exposed_form:reset_button_label',
     'location' => 'views:tmgmt_ui_job_item_messages:default:exposed_form:reset_button_label',
     'translation' => 'Zurück setzen',
+    'plid' => 0,
+    'plural' => 0,
+  );
+  $translations['de:views']['9d9711ff80ebfcf039ead5461ed43f84'] = array(
+    'source' => 'Description',
+    'context' => 'expose:default:field:field_data_field_apart_description:field_apart_description:label',
+    'location' => 'views:expose:default:field:field_data_field_apart_description:field_apart_description:label',
+    'translation' => 'Beschreibung',
     'plid' => 0,
     'plural' => 0,
   );
@@ -4433,11 +4533,11 @@ function hk_translations_translations_defaults() {
     'plid' => 0,
     'plural' => 0,
   );
-  $translations['de:views']['9fdae03d4687b2628a5f64d1920fe043'] = array(
-    'source' => 'mehr',
-    'context' => 'apartment:panel_pane_4:use_more_text',
-    'location' => 'views:apartment:panel_pane_4:use_more_text',
-    'translation' => 'mehr',
+  $translations['de:views']['a00c2f758bf86c396dee421889fd0dd8'] = array(
+    'source' => 'Sleeping rooms',
+    'context' => 'expose:default:field:field_data_field_apart_sleeping_rooms:field_apart_sleeping_rooms:label',
+    'location' => 'views:expose:default:field:field_data_field_apart_sleeping_rooms:field_apart_sleeping_rooms:label',
+    'translation' => 'Schlafzimmer',
     'plid' => 0,
     'plural' => 0,
   );
@@ -4502,6 +4602,14 @@ function hk_translations_translations_defaults() {
     'context' => 'admin_views_user:system_1:pager:expose:items_per_page_label',
     'location' => 'views:admin_views_user:system_1:pager:expose:items_per_page_label',
     'translation' => 'Elemente pro Seite',
+    'plid' => 0,
+    'plural' => 0,
+  );
+  $translations['de:views']['a2f91416951aaab6c661635b0f0f8dd8'] = array(
+    'source' => 'Commission',
+    'context' => 'expose:default:field:field_data_field_apart_commission:field_apart_commission:label',
+    'location' => 'views:expose:default:field:field_data_field_apart_commission:field_apart_commission:label',
+    'translation' => 'Provision',
     'plid' => 0,
     'plural' => 0,
   );
@@ -4665,6 +4773,14 @@ function hk_translations_translations_defaults() {
     'plid' => 0,
     'plural' => 0,
   );
+  $translations['de:views']['a86b35c51ca03abcb89fd9c46c31f0a8'] = array(
+    'source' => 'more',
+    'context' => 'apartment:block_2:use_more_text',
+    'location' => 'views:apartment:block_2:use_more_text',
+    'translation' => 'mehr',
+    'plid' => 0,
+    'plural' => 0,
+  );
   $translations['de:views']['a87a2898a4ad78d7fc4d162bf05dbea8'] = array(
     'source' => 'Object',
     'context' => 'karten:map_page:relationship:search_api_index_solr_node_index:field_object_ref:label',
@@ -4726,6 +4842,14 @@ function hk_translations_translations_defaults() {
     'context' => 'redirects:default:pager:expose:items_per_page_options_all_label',
     'location' => 'views:redirects:default:pager:expose:items_per_page_options_all_label',
     'translation' => '- Alle -',
+    'plid' => 0,
+    'plural' => 0,
+  );
+  $translations['de:views']['aa22fdb1b34ed7bfd2dfaceffb508055'] = array(
+    'source' => 'Published',
+    'context' => 'admin:page_2:filter:node:status:expose:label',
+    'location' => 'views:admin:page_2:filter:node:status:expose:label',
+    'translation' => 'Veröffentlicht',
     'plid' => 0,
     'plural' => 0,
   );
@@ -5001,6 +5125,14 @@ function hk_translations_translations_defaults() {
     'plid' => 0,
     'plural' => 0,
   );
+  $translations['de:views']['b4956fbacaa91e548b864c59289151de'] = array(
+    'source' => 'Rooms',
+    'context' => 'expose:default:field:field_data_field_apart_rooms:field_apart_rooms_1:label',
+    'location' => 'views:expose:default:field:field_data_field_apart_rooms:field_apart_rooms_1:label',
+    'translation' => 'Zimmer',
+    'plid' => 0,
+    'plural' => 0,
+  );
   $translations['de:views']['b542c2aad0bd2833049fa8bb48957362'] = array(
     'source' => 'Language',
     'context' => 'tmgmt_local_manage_translate_task:completed:field:tmgmt_job:source_language:label',
@@ -5145,14 +5277,6 @@ function hk_translations_translations_defaults() {
     'plid' => 0,
     'plural' => 0,
   );
-  $translations['de:views']['bad744250bdfe52bff579b31cd34f2c5'] = array(
-    'source' => 'Title',
-    'context' => 'admin:page_4:field:node:title_editable:label',
-    'location' => 'views:admin:page_4:field:node:title_editable:label',
-    'translation' => 'Titel',
-    'plid' => 0,
-    'plural' => 0,
-  );
   $translations['de:views']['bb1c58f97076464876f4dfa1aac7f009'] = array(
     'source' => 'All',
     'context' => 'workflow_summary:page_3:argument:node:uid:exception:title',
@@ -5206,6 +5330,14 @@ function hk_translations_translations_defaults() {
     'context' => 'tmgmt_local_task_overview:completed:rules_component::rules_tmgmt_local_task_assign_to_me',
     'location' => 'views:tmgmt_local_task_overview:completed:rules_component::rules_tmgmt_local_task_assign_to_me',
     'translation' => 'Aufgabe annehmen',
+    'plid' => 0,
+    'plural' => 0,
+  );
+  $translations['de:views']['bd30480800845984504a276bc3382758'] = array(
+    'source' => 'more',
+    'context' => 'apartment:panel_pane_4:use_more_text',
+    'location' => 'views:apartment:panel_pane_4:use_more_text',
+    'translation' => 'mehr',
     'plid' => 0,
     'plural' => 0,
   );
@@ -5793,19 +5925,19 @@ function hk_translations_translations_defaults() {
     'plid' => 0,
     'plural' => 0,
   );
+  $translations['de:views']['d0ccd064ee977d77c68a79bb0eb3a03b'] = array(
+    'source' => 'Price',
+    'context' => 'expose:default:field:field_data_field_apart_price:field_apart_price:label',
+    'location' => 'views:expose:default:field:field_data_field_apart_price:field_apart_price:label',
+    'translation' => 'Preis',
+    'plid' => 0,
+    'plural' => 0,
+  );
   $translations['de:views']['d14388d3dd3d0e08ed61b5736e3f58a1'] = array(
     'source' => 'Reset',
     'context' => 'workflow_summary:page_4:exposed_form:reset_button_label',
     'location' => 'views:workflow_summary:page_4:exposed_form:reset_button_label',
     'translation' => 'Zurück setzen',
-    'plid' => 0,
-    'plural' => 0,
-  );
-  $translations['de:views']['d18fbb44e80af3a37087e27de073445a'] = array(
-    'source' => 'mehr',
-    'context' => 'apartment:block_2:use_more_text',
-    'location' => 'views:apartment:block_2:use_more_text',
-    'translation' => 'mehr',
     'plid' => 0,
     'plural' => 0,
   );
@@ -5838,6 +5970,14 @@ function hk_translations_translations_defaults() {
     'context' => 'feeds_log:page_2:use_more_text',
     'location' => 'views:feeds_log:page_2:use_more_text',
     'translation' => 'mehr',
+    'plid' => 0,
+    'plural' => 0,
+  );
+  $translations['de:views']['d253e48f880d30db394aa195a9af0b31'] = array(
+    'source' => 'Published',
+    'context' => 'admin:page_3:filter:node:status:expose:label',
+    'location' => 'views:admin:page_3:filter:node:status:expose:label',
+    'translation' => 'Veröffentlicht',
     'plid' => 0,
     'plural' => 0,
   );
@@ -6073,6 +6213,14 @@ function hk_translations_translations_defaults() {
     'plid' => 0,
     'plural' => 0,
   );
+  $translations['de:views']['da3b4ad68dc5df89263199164f5a70dd'] = array(
+    'source' => 'Description',
+    'context' => 'apartment:panel_pane_1:display_title',
+    'location' => 'views:apartment:panel_pane_1:display_title',
+    'translation' => 'Beschreibung',
+    'plid' => 0,
+    'plural' => 0,
+  );
   $translations['de:views']['da4e503dccbb1f58968bf660e26ae07f'] = array(
     'source' => 'Apply',
     'context' => 'visitor_log_lite:page:exposed_form:submit_button',
@@ -6185,6 +6333,14 @@ function hk_translations_translations_defaults() {
     'plid' => 0,
     'plural' => 0,
   );
+  $translations['de:views']['dcf1069e4ed2cb136a0f5c1e1bf89f0c'] = array(
+    'source' => 'more',
+    'context' => 'apartment:details:use_more_text',
+    'location' => 'views:apartment:details:use_more_text',
+    'translation' => 'mehr',
+    'plid' => 0,
+    'plural' => 0,
+  );
   $translations['de:views']['dd08602159b7d4c53b505966140473a6'] = array(
     'source' => 'Apply',
     'context' => 'tmgmt_local_task_items:block:exposed_form:submit_button',
@@ -6278,6 +6434,14 @@ function hk_translations_translations_defaults() {
     'context' => 'karten:default:use_more_text',
     'location' => 'views:karten:default:use_more_text',
     'translation' => 'mehr',
+    'plid' => 0,
+    'plural' => 0,
+  );
+  $translations['de:views']['df5294deeff5326bdc4c7b2255d3f966'] = array(
+    'source' => 'Language',
+    'context' => 'admin:default:filter:node:language:expose:label',
+    'location' => 'views:admin:default:filter:node:language:expose:label',
+    'translation' => 'Sprache',
     'plid' => 0,
     'plural' => 0,
   );
@@ -6393,6 +6557,14 @@ function hk_translations_translations_defaults() {
     'plid' => 0,
     'plural' => 0,
   );
+  $translations['de:views']['e4c3ca090d9d4b9f9dd6d76a075fe3ff'] = array(
+    'source' => '<!--<a href="/node/[field_obj_apartments-target_id]?destination=/admin/content/dash" title="Wohnung ansehen">-->[field_obj_apartments]<!--</a>--> | <a href="/node/[field_obj_apartments-target_id]/edit?destination=/admin/content/dash" title="Wohnung bearbeiten">bearbeiten</a><!-- | <a href="/node/[field_obj_apartments-target_id]/translate?destination=/admin/content/dash" title="Wohnung übersetzen">übersetzen</a>-->',
+    'context' => 'admin:default:field:field_data_field_obj_apartments:field_obj_apartments:alter:text',
+    'location' => 'views:admin:default:field:field_data_field_obj_apartments:field_obj_apartments:alter:text',
+    'translation' => 'Bearbeiten',
+    'plid' => 0,
+    'plural' => 0,
+  );
   $translations['de:views']['e4f80ae9f0fd832af0d05e1fae17ac83'] = array(
     'source' => 'Items per page',
     'context' => 'archive:default:pager:expose:items_per_page_label',
@@ -6457,6 +6629,14 @@ function hk_translations_translations_defaults() {
     'plid' => 0,
     'plural' => 0,
   );
+  $translations['de:views']['e5f2d6766cc7a8c5fd80d1d2abff0ff6'] = array(
+    'source' => 'Country',
+    'context' => 'visitor_log:default:field:ip_geoloc:country:label',
+    'location' => 'views:visitor_log:default:field:ip_geoloc:country:label',
+    'translation' => 'Land',
+    'plid' => 0,
+    'plural' => 0,
+  );
   $translations['de:views']['e6b9eeb198b1be44d137fd21e73e4374'] = array(
     'source' => 'Apply',
     'context' => 'map_ol_centered_on_visitor_location:default:exposed_form:submit_button',
@@ -6494,6 +6674,14 @@ function hk_translations_translations_defaults() {
     'context' => 'redirects:default:field:redirect:operations:label',
     'location' => 'views:redirects:default:field:redirect:operations:label',
     'translation' => 'Aktionen',
+    'plid' => 0,
+    'plural' => 0,
+  );
+  $translations['de:views']['e8ad30cad4a61335d006db7a432d332d'] = array(
+    'source' => 'Published',
+    'context' => 'admin:page_2:field:node:status:label',
+    'location' => 'views:admin:page_2:field:node:status:label',
+    'translation' => 'Veröffentlicht',
     'plid' => 0,
     'plural' => 0,
   );
@@ -6945,6 +7133,14 @@ function hk_translations_translations_defaults() {
     'plid' => 0,
     'plural' => 0,
   );
+  $translations['de:views']['f4c751346897bb6da8a9279cb9b2e4ef'] = array(
+    'source' => 'more',
+    'context' => 'apartment:block_1:use_more_text',
+    'location' => 'views:apartment:block_1:use_more_text',
+    'translation' => 'mehr',
+    'plid' => 0,
+    'plural' => 0,
+  );
   $translations['de:views']['f4de2155b1b1d79d3e4dc4879642ed36'] = array(
     'source' => 'last »',
     'context' => 'karten:kaufen:pager:tags:last',
@@ -6998,6 +7194,14 @@ function hk_translations_translations_defaults() {
     'context' => 'tmgmt_ui_job_items:submit:exposed_form:submit_button',
     'location' => 'views:tmgmt_ui_job_items:submit:exposed_form:submit_button',
     'translation' => 'Anwenden',
+    'plid' => 0,
+    'plural' => 0,
+  );
+  $translations['de:views']['f5cb25de4070eeb7d409300a351b3894'] = array(
+    'source' => 'Language',
+    'context' => 'admin:page_3:filter:node:language:expose:label',
+    'location' => 'views:admin:page_3:filter:node:language:expose:label',
+    'translation' => 'Sprache',
     'plid' => 0,
     'plural' => 0,
   );
@@ -7073,14 +7277,6 @@ function hk_translations_translations_defaults() {
     'plid' => 0,
     'plural' => 0,
   );
-  $translations['de:views']['f7175c2f78fa468428a168f140cbe6ee'] = array(
-    'source' => 'mehr',
-    'context' => 'apartment:objektadresse:use_more_text',
-    'location' => 'views:apartment:objektadresse:use_more_text',
-    'translation' => 'mehr',
-    'plid' => 0,
-    'plural' => 0,
-  );
   $translations['de:views']['f7353ddda5ccffb5a9a6be6667be5d9c'] = array(
     'source' => 'Language From',
     'context' => 'tmgmt_local_task_overview:completed:filter:tmgmt_job:source_language:expose:label',
@@ -7126,14 +7322,6 @@ function hk_translations_translations_defaults() {
     'context' => 'admin_views_node:default:action::views_bulk_operations_delete_item',
     'location' => 'views:admin_views_node:default:action::views_bulk_operations_delete_item',
     'translation' => 'Löschen',
-    'plid' => 0,
-    'plural' => 0,
-  );
-  $translations['de:views']['f91abcf5f042e0552b21f0dc2b06540d'] = array(
-    'source' => 'mehr',
-    'context' => 'apartment:attachment_1:use_more_text',
-    'location' => 'views:apartment:attachment_1:use_more_text',
-    'translation' => 'mehr',
     'plid' => 0,
     'plural' => 0,
   );
@@ -7241,26 +7429,10 @@ function hk_translations_translations_defaults() {
     'plid' => 0,
     'plural' => 0,
   );
-  $translations['de:views']['fd429c9e637185de1ab7fcc3bfa98453'] = array(
-    'source' => 'mehr',
-    'context' => 'apartment:panel_pane_3:use_more_text',
-    'location' => 'views:apartment:panel_pane_3:use_more_text',
-    'translation' => 'mehr',
-    'plid' => 0,
-    'plural' => 0,
-  );
   $translations['de:views']['fded7db98bfc63e665673301715df2e1'] = array(
     'source' => 'more',
     'context' => 'taxonomy_term:default:use_more_text',
     'location' => 'views:taxonomy_term:default:use_more_text',
-    'translation' => 'mehr',
-    'plid' => 0,
-    'plural' => 0,
-  );
-  $translations['de:views']['fe03ce4affc02773782e123c2c83599c'] = array(
-    'source' => 'mehr',
-    'context' => 'apartment:details:use_more_text',
-    'location' => 'views:apartment:details:use_more_text',
     'translation' => 'mehr',
     'plid' => 0,
     'plural' => 0,
