@@ -70,12 +70,6 @@ function hk_translations_strongarm() {
       ),
       'file' => 'includes/locale.inc',
     ),
-    'weight_language' => array(
-      'callbacks' => array(
-        'language' => 'weight_language_provider_callback',
-      ),
-      'file' => 'sites/all/modules/custom/weight_language/weight_language.module',
-    ),
     'language-default' => array(
       'callbacks' => array(
         'language' => 'language_from_default',

@@ -369,6 +369,14 @@ function hk_translations_translations_defaults() {
     'plid' => 0,
     'plural' => 0,
   );
+  $translations['de:views']['01fa20c98e58058750945b5f06557285'] = array(
+    'source' => 'Living space',
+    'context' => 'karten:kaufen:field:search_api_index_solr_node_index:field_apart_living_space:label',
+    'location' => 'views:karten:kaufen:field:search_api_index_solr_node_index:field_apart_living_space:label',
+    'translation' => 'Fläche',
+    'plid' => 0,
+    'plural' => 0,
+  );
   $translations['de:views']['02c5e31247d3a47a93c2f930699ea843'] = array(
     'source' => 'Progress',
     'context' => 'tmgmt_local_task_overview:rejected:field:tmgmt_local_task:progress:label',
@@ -430,6 +438,14 @@ function hk_translations_translations_defaults() {
     'context' => 'tmgmt_local_manage_translate_task:rejected:field:tmgmt_local_task:created:label',
     'location' => 'views:tmgmt_local_manage_translate_task:rejected:field:tmgmt_local_task:created:label',
     'translation' => 'Datum',
+    'plid' => 0,
+    'plural' => 0,
+  );
+  $translations['de:views']['0547fc39574458de4dbcd85a2cfc979b'] = array(
+    'source' => 'Rooms',
+    'context' => 'karten:kaufen:field:search_api_index_solr_node_index:field_apart_rooms:label',
+    'location' => 'views:karten:kaufen:field:search_api_index_solr_node_index:field_apart_rooms:label',
+    'translation' => 'Zimmer',
     'plid' => 0,
     'plural' => 0,
   );
@@ -502,14 +518,6 @@ function hk_translations_translations_defaults() {
     'context' => 'tmgmt_ui_job_overview:default:field:tmgmt_job:state:label',
     'location' => 'views:tmgmt_ui_job_overview:default:field:tmgmt_job:state:label',
     'translation' => 'Status',
-    'plid' => 0,
-    'plural' => 0,
-  );
-  $translations['de:views']['07cc76aa180524c247ae7ee6173947e8'] = array(
-    'source' => 'Zurücksetzen',
-    'context' => 'karten:kaufen:exposed_form:reset_button_label',
-    'location' => 'views:karten:kaufen:exposed_form:reset_button_label',
-    'translation' => 'Zurück setzen',
     'plid' => 0,
     'plural' => 0,
   );
@@ -993,14 +1001,6 @@ function hk_translations_translations_defaults() {
     'plid' => 0,
     'plural' => 0,
   );
-  $translations['de:views']['1cf8dc5f8f80409c439c96560d28d47f'] = array(
-    'source' => 'mehr',
-    'context' => 'karten:kaufen:use_more_text',
-    'location' => 'views:karten:kaufen:use_more_text',
-    'translation' => 'mehr',
-    'plid' => 0,
-    'plural' => 0,
-  );
   $translations['de:views']['1d2516feb8508cbb6cd4d6515b834483'] = array(
     'source' => 'Field name',
     'context' => 'workflow_summary:page_4:field:workflow_node_history:field_name:label',
@@ -1070,14 +1070,6 @@ function hk_translations_translations_defaults() {
     'context' => 'frontpage:feed:exposed_form:reset_button_label',
     'location' => 'views:frontpage:feed:exposed_form:reset_button_label',
     'translation' => 'Zurück setzen',
-    'plid' => 0,
-    'plural' => 0,
-  );
-  $translations['de:views']['20ae9c57087f02daadd046b6d007c633'] = array(
-    'source' => 'Zimmer',
-    'context' => 'karten:kaufen:field:search_api_index_solr_node_index:field_apart_rooms:label',
-    'location' => 'views:karten:kaufen:field:search_api_index_solr_node_index:field_apart_rooms:label',
-    'translation' => 'Zimmer',
     'plid' => 0,
     'plural' => 0,
   );
@@ -1273,14 +1265,6 @@ function hk_translations_translations_defaults() {
     'plid' => 0,
     'plural' => 0,
   );
-  $translations['de:views']['28789ef47c818a78e11385bd5446f728'] = array(
-    'source' => 'Zurücksetzen',
-    'context' => 'karten:mieten:exposed_form:reset_button_label',
-    'location' => 'views:karten:mieten:exposed_form:reset_button_label',
-    'translation' => 'Zurück setzen',
-    'plid' => 0,
-    'plural' => 0,
-  );
   $translations['de:views']['28dca994833f3d82d27d4a247936de28'] = array(
     'source' => 'Title',
     'context' => 'admin_views_node:default:filter:node:title:expose:label',
@@ -1326,6 +1310,14 @@ function hk_translations_translations_defaults() {
     'context' => 'workflow_history_per_entity:default:field:workflow_node_history:uid:label',
     'location' => 'views:workflow_history_per_entity:default:field:workflow_node_history:uid:label',
     'translation' => 'Benutzer',
+    'plid' => 0,
+    'plural' => 0,
+  );
+  $translations['de:views']['2a56a8eef4d347f62f2969e4a5bd5177'] = array(
+    'source' => 'Reset',
+    'context' => 'karten:mieten:exposed_form:reset_button_label',
+    'location' => 'views:karten:mieten:exposed_form:reset_button_label',
+    'translation' => 'Zurück setzen',
     'plid' => 0,
     'plural' => 0,
   );
@@ -1713,14 +1705,6 @@ function hk_translations_translations_defaults() {
     'plid' => 0,
     'plural' => 0,
   );
-  $translations['de:views']['381de5bfb5dd5c5d07d0e1c04276ef2b'] = array(
-    'source' => 'Zurücksetzen',
-    'context' => 'karten:map_block:exposed_form:reset_button_label',
-    'location' => 'views:karten:map_block:exposed_form:reset_button_label',
-    'translation' => 'Zurück setzen',
-    'plid' => 0,
-    'plural' => 0,
-  );
   $translations['de:views']['383687ff4f60eac89e42cce26c12043f'] = array(
     'source' => 'Country',
     'context' => 'order_locations:default:filter:ip_geoloc:country:expose:label',
@@ -1902,6 +1886,14 @@ function hk_translations_translations_defaults() {
     'context' => 'tmgmt_local_manage_translate_task:unassigned:field:tmgmt_local_task:word_count:label',
     'location' => 'views:tmgmt_local_manage_translate_task:unassigned:field:tmgmt_local_task:word_count:label',
     'translation' => 'Anzahl Worte',
+    'plid' => 0,
+    'plural' => 0,
+  );
+  $translations['de:views']['3e929e66c2b118b712aae46d97b5830d'] = array(
+    'source' => 'more',
+    'context' => 'karten:map_page:use_more_text',
+    'location' => 'views:karten:map_page:use_more_text',
+    'translation' => 'mehr',
     'plid' => 0,
     'plural' => 0,
   );
@@ -2345,14 +2337,6 @@ function hk_translations_translations_defaults() {
     'plid' => 0,
     'plural' => 0,
   );
-  $translations['de:views']['4d5877b383ebe8587dad0ffeb88364b8'] = array(
-    'source' => 'mehr',
-    'context' => 'karten:default:use_more_text',
-    'location' => 'views:karten:default:use_more_text',
-    'translation' => 'mehr',
-    'plid' => 0,
-    'plural' => 0,
-  );
   $translations['de:views']['4d86f83d2eb951b9797d776b07ed08b0'] = array(
     'source' => 'Language',
     'context' => 'workflow_summary:page_2:field:workflow_scheduled_transition:language:label',
@@ -2697,6 +2681,14 @@ function hk_translations_translations_defaults() {
     'plid' => 0,
     'plural' => 0,
   );
+  $translations['de:views']['5887fd9b95b9caf7138bc16abcc6314b'] = array(
+    'source' => 'Reset',
+    'context' => 'karten:map_block:exposed_form:reset_button_label',
+    'location' => 'views:karten:map_block:exposed_form:reset_button_label',
+    'translation' => 'Zurück setzen',
+    'plid' => 0,
+    'plural' => 0,
+  );
   $translations['de:views']['59a7d172e6b39c9d1b61c5187cb44292'] = array(
     'source' => 'Apply',
     'context' => 'redirects:page_admin:exposed_form:submit_button',
@@ -2726,6 +2718,14 @@ function hk_translations_translations_defaults() {
     'context' => 'map_ol_centered_on_visitor_location:block:exposed_form:submit_button',
     'location' => 'views:map_ol_centered_on_visitor_location:block:exposed_form:submit_button',
     'translation' => 'Anwenden',
+    'plid' => 0,
+    'plural' => 0,
+  );
+  $translations['de:views']['5abf3428586c55e71a9e88f4fcd7f942'] = array(
+    'source' => 'Reset',
+    'context' => 'karten:kaufen:exposed_form:reset_button_label',
+    'location' => 'views:karten:kaufen:exposed_form:reset_button_label',
+    'translation' => 'Zurück setzen',
     'plid' => 0,
     'plural' => 0,
   );
@@ -3009,14 +3009,6 @@ function hk_translations_translations_defaults() {
     'plid' => 0,
     'plural' => 0,
   );
-  $translations['de:views']['65c90df64c4e8157c23555f363cd09a0'] = array(
-    'source' => 'mehr',
-    'context' => 'karten:map_block:use_more_text',
-    'location' => 'views:karten:map_block:use_more_text',
-    'translation' => 'mehr',
-    'plid' => 0,
-    'plural' => 0,
-  );
   $translations['de:views']['660970e7944b231f02e6eaa5b95c0ada'] = array(
     'source' => '- All -',
     'context' => 'tmgmt_local_manage_translate_task:rejected:pager:expose:items_per_page_options_all_label',
@@ -3145,14 +3137,6 @@ function hk_translations_translations_defaults() {
     'plid' => 0,
     'plural' => 0,
   );
-  $translations['de:views']['6b9a1a2d4e2b0e5131be6edc2ba7570e'] = array(
-    'source' => 'Zurücksetzen',
-    'context' => 'karten:default:exposed_form:reset_button_label',
-    'location' => 'views:karten:default:exposed_form:reset_button_label',
-    'translation' => 'Zurück setzen',
-    'plid' => 0,
-    'plural' => 0,
-  );
   $translations['de:views']['6bf2a89f8fb1766e6df8cec1c98b192a'] = array(
     'source' => 'Language From',
     'context' => 'tmgmt_local_task_overview:closed:filter:tmgmt_job:source_language:expose:label',
@@ -3169,11 +3153,11 @@ function hk_translations_translations_defaults() {
     'plid' => 0,
     'plural' => 0,
   );
-  $translations['de:views']['6c7a577ad2345197785eace7c0cf7dd1'] = array(
-    'source' => 'Zurücksetzen',
-    'context' => 'karten:map_page:exposed_form:reset_button_label',
-    'location' => 'views:karten:map_page:exposed_form:reset_button_label',
-    'translation' => 'Zurück setzen',
+  $translations['de:views']['6c0f30b4c0f73300ae82ea0340d60890'] = array(
+    'source' => 'more',
+    'context' => 'karten:kaufen:use_more_text',
+    'location' => 'views:karten:kaufen:use_more_text',
+    'translation' => 'mehr',
     'plid' => 0,
     'plural' => 0,
   );
@@ -3310,6 +3294,14 @@ function hk_translations_translations_defaults() {
     'context' => 'crm_core_contacts:default:pager:expose:items_per_page_options_all_label',
     'location' => 'views:crm_core_contacts:default:pager:expose:items_per_page_options_all_label',
     'translation' => '- Alle -',
+    'plid' => 0,
+    'plural' => 0,
+  );
+  $translations['de:views']['714007268369e47f5ebd81b2362e8a32'] = array(
+    'source' => 'more',
+    'context' => 'karten:mlt:use_more_text',
+    'location' => 'views:karten:mlt:use_more_text',
+    'translation' => 'mehr',
     'plid' => 0,
     'plural' => 0,
   );
@@ -3457,6 +3449,14 @@ function hk_translations_translations_defaults() {
     'plid' => 0,
     'plural' => 0,
   );
+  $translations['de:views']['76fc27123cba5b42395482f08bb439d8'] = array(
+    'source' => 'Reset',
+    'context' => 'karten:mlt:exposed_form:reset_button_label',
+    'location' => 'views:karten:mlt:exposed_form:reset_button_label',
+    'translation' => 'Zurück setzen',
+    'plid' => 0,
+    'plural' => 0,
+  );
   $translations['de:views']['77152d1949538a945329ba477ca8938c'] = array(
     'source' => 'Word count',
     'context' => 'tmgmt_ui_job_items:default:field:tmgmt_job_item:word_count_1:label',
@@ -3574,14 +3574,6 @@ function hk_translations_translations_defaults() {
     'context' => 'tmgmt_local_task_overview:completed:pager:expose:items_per_page_label',
     'location' => 'views:tmgmt_local_task_overview:completed:pager:expose:items_per_page_label',
     'translation' => 'Elemente pro Seite',
-    'plid' => 0,
-    'plural' => 0,
-  );
-  $translations['de:views']['7cbd65fe49c0b766951e6fa791e484f7'] = array(
-    'source' => 'Fläche',
-    'context' => 'karten:kaufen:field:search_api_index_solr_node_index:field_apart_living_space:label',
-    'location' => 'views:karten:kaufen:field:search_api_index_solr_node_index:field_apart_living_space:label',
-    'translation' => 'Fläche',
     'plid' => 0,
     'plural' => 0,
   );
@@ -4433,6 +4425,14 @@ function hk_translations_translations_defaults() {
     'plid' => 0,
     'plural' => 0,
   );
+  $translations['de:views']['9c8b0c740c54935bcfc11e0f15232389'] = array(
+    'source' => 'more',
+    'context' => 'karten:mieten:use_more_text',
+    'location' => 'views:karten:mieten:use_more_text',
+    'translation' => 'mehr',
+    'plid' => 0,
+    'plural' => 0,
+  );
   $translations['de:views']['9cddaed7a9ed7590201248f9fdc85c62'] = array(
     'source' => 'Author',
     'context' => 'admin_views_file:default:field:users:name:label',
@@ -4865,14 +4865,6 @@ function hk_translations_translations_defaults() {
     'plid' => 0,
     'plural' => 0,
   );
-  $translations['de:views']['abd4a253208fe10b65bc29b600b5f069'] = array(
-    'source' => 'mehr',
-    'context' => 'karten:map_page:use_more_text',
-    'location' => 'views:karten:map_page:use_more_text',
-    'translation' => 'mehr',
-    'plid' => 0,
-    'plural' => 0,
-  );
   $translations['de:views']['abd789d89b248f4cc514ac64aba94f9d'] = array(
     'source' => '- All -',
     'context' => 'feeds_log:default:pager:expose:items_per_page_options_all_label',
@@ -4958,14 +4950,6 @@ function hk_translations_translations_defaults() {
     'context' => 'tmgmt_local_manage_translate_task:unassigned:exposed_form:reset_button_label',
     'location' => 'views:tmgmt_local_manage_translate_task:unassigned:exposed_form:reset_button_label',
     'translation' => 'Zurück setzen',
-    'plid' => 0,
-    'plural' => 0,
-  );
-  $translations['de:views']['aeff18b68c9066c8d940423459c02e6a'] = array(
-    'source' => 'mehr',
-    'context' => 'karten:mieten:use_more_text',
-    'location' => 'views:karten:mieten:use_more_text',
-    'translation' => 'mehr',
     'plid' => 0,
     'plural' => 0,
   );
@@ -5077,6 +5061,14 @@ function hk_translations_translations_defaults() {
     'source' => 'more',
     'context' => 'workflow_history_per_entity:default:use_more_text',
     'location' => 'views:workflow_history_per_entity:default:use_more_text',
+    'translation' => 'mehr',
+    'plid' => 0,
+    'plural' => 0,
+  );
+  $translations['de:views']['b2e5006b2861b86791a3c5b10178fe21'] = array(
+    'source' => 'more',
+    'context' => 'karten:map_block:use_more_text',
+    'location' => 'views:karten:map_block:use_more_text',
     'translation' => 'mehr',
     'plid' => 0,
     'plural' => 0,
@@ -5294,14 +5286,6 @@ function hk_translations_translations_defaults() {
     'context' => 'tmgmt_local_manage_translate_task:completed:field:tmgmt_local_task:progress:label',
     'location' => 'views:tmgmt_local_manage_translate_task:completed:field:tmgmt_local_task:progress:label',
     'translation' => 'Fortschritt',
-    'plid' => 0,
-    'plural' => 0,
-  );
-  $translations['de:views']['bc1282538166ea69078a45a7b50cbca4'] = array(
-    'source' => 'mehr',
-    'context' => 'karten:mlt:use_more_text',
-    'location' => 'views:karten:mlt:use_more_text',
-    'translation' => 'mehr',
     'plid' => 0,
     'plural' => 0,
   );
@@ -6065,6 +6049,14 @@ function hk_translations_translations_defaults() {
     'plid' => 0,
     'plural' => 0,
   );
+  $translations['de:views']['d571fcff8402f1dea49b7e57f08e4da9'] = array(
+    'source' => 'Reset',
+    'context' => 'karten:default:exposed_form:reset_button_label',
+    'location' => 'views:karten:default:exposed_form:reset_button_label',
+    'translation' => 'Zurück setzen',
+    'plid' => 0,
+    'plural' => 0,
+  );
   $translations['de:views']['d5b768fb7b894556c1364f3bc6664938'] = array(
     'source' => 'more',
     'context' => 'frontpage:page:use_more_text',
@@ -6394,6 +6386,14 @@ function hk_translations_translations_defaults() {
     'context' => 'backlinks:block:exposed_form:reset_button_label',
     'location' => 'views:backlinks:block:exposed_form:reset_button_label',
     'translation' => 'Zurück setzen',
+    'plid' => 0,
+    'plural' => 0,
+  );
+  $translations['de:views']['df4731f292fd3f9e857aa5b4e624ae1b'] = array(
+    'source' => 'more',
+    'context' => 'karten:default:use_more_text',
+    'location' => 'views:karten:default:use_more_text',
+    'translation' => 'mehr',
     'plid' => 0,
     'plural' => 0,
   );
@@ -6733,14 +6733,6 @@ function hk_translations_translations_defaults() {
     'plid' => 0,
     'plural' => 0,
   );
-  $translations['de:views']['ea8ae0abe48cc7fb08e35c2475b15764'] = array(
-    'source' => 'Zurücksetzen',
-    'context' => 'karten:mlt:exposed_form:reset_button_label',
-    'location' => 'views:karten:mlt:exposed_form:reset_button_label',
-    'translation' => 'Zurück setzen',
-    'plid' => 0,
-    'plural' => 0,
-  );
   $translations['de:views']['eac3b4f6c2856cbffebe5d058aabacb5'] = array(
     'source' => '- All -',
     'context' => 'feeds_log:page_2:pager:expose:items_per_page_options_all_label',
@@ -6874,6 +6866,14 @@ function hk_translations_translations_defaults() {
     'context' => 'visitor_log:page:exposed_form:submit_button',
     'location' => 'views:visitor_log:page:exposed_form:submit_button',
     'translation' => 'Anwenden',
+    'plid' => 0,
+    'plural' => 0,
+  );
+  $translations['de:views']['efcfe938fc8d3091c2cc78086dd53e0b'] = array(
+    'source' => 'Reset',
+    'context' => 'karten:map_page:exposed_form:reset_button_label',
+    'location' => 'views:karten:map_page:exposed_form:reset_button_label',
+    'translation' => 'Zurück setzen',
     'plid' => 0,
     'plural' => 0,
   );
