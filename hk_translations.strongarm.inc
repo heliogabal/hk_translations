@@ -46,13 +46,13 @@ function hk_translations_strongarm() {
     'language' => 'en',
     'name' => 'EN',
     'native' => 'EN',
-    'direction' => 0,
+    'direction' => '0',
     'enabled' => 1,
-    'plurals' => 0,
+    'plurals' => '0',
     'formula' => '',
     'domain' => '',
     'prefix' => '',
-    'weight' => 0,
+    'weight' => '-9',
     'javascript' => '',
   );
   $export['language_default'] = $strongarm;
@@ -70,11 +70,11 @@ function hk_translations_strongarm() {
       ),
       'file' => 'includes/locale.inc',
     ),
-    'locale-user' => array(
+    'weight_language' => array(
       'callbacks' => array(
-        'language' => 'locale_language_from_user',
+        'language' => 'weight_language_provider_callback',
       ),
-      'file' => 'includes/locale.inc',
+      'file' => 'sites/all/modules/custom/weight_language/weight_language.module',
     ),
     'language-default' => array(
       'callbacks' => array(
@@ -148,8 +148,8 @@ function hk_translations_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'locale_language_providers_weight_language';
   $strongarm->value = array(
-    'locale-user' => '-9',
     'locale-url' => '-10',
+    'locale-user' => '-9',
     'locale-browser' => '-8',
     'locale-session' => '-7',
     'weight_language' => '-6',

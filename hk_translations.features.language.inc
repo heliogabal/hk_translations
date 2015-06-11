@@ -21,7 +21,7 @@ function hk_translations_locale_default_languages() {
     'formula' => '($n!=1)',
     'domain' => '',
     'prefix' => 'de',
-    'weight' => 0,
+    'weight' => -10,
   );
   // Exported language: en.
   $languages['en'] = array(
@@ -34,7 +34,7 @@ function hk_translations_locale_default_languages() {
     'formula' => '',
     'domain' => '',
     'prefix' => '',
-    'weight' => 0,
+    'weight' => -9,
   );
   return $languages;
 }

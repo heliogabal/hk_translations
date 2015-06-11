@@ -369,14 +369,6 @@ function hk_translations_translations_defaults() {
     'plid' => 0,
     'plural' => 0,
   );
-  $translations['de:views']['01fa20c98e58058750945b5f06557285'] = array(
-    'source' => 'Living space',
-    'context' => 'karten:kaufen:field:search_api_index_solr_node_index:field_apart_living_space:label',
-    'location' => 'views:karten:kaufen:field:search_api_index_solr_node_index:field_apart_living_space:label',
-    'translation' => 'Fläche',
-    'plid' => 0,
-    'plural' => 0,
-  );
   $translations['de:views']['02c5e31247d3a47a93c2f930699ea843'] = array(
     'source' => 'Progress',
     'context' => 'tmgmt_local_task_overview:rejected:field:tmgmt_local_task:progress:label',
@@ -438,14 +430,6 @@ function hk_translations_translations_defaults() {
     'context' => 'tmgmt_local_manage_translate_task:rejected:field:tmgmt_local_task:created:label',
     'location' => 'views:tmgmt_local_manage_translate_task:rejected:field:tmgmt_local_task:created:label',
     'translation' => 'Datum',
-    'plid' => 0,
-    'plural' => 0,
-  );
-  $translations['de:views']['0547fc39574458de4dbcd85a2cfc979b'] = array(
-    'source' => 'Rooms',
-    'context' => 'karten:kaufen:field:search_api_index_solr_node_index:field_apart_rooms:label',
-    'location' => 'views:karten:kaufen:field:search_api_index_solr_node_index:field_apart_rooms:label',
-    'translation' => 'Zimmer',
     'plid' => 0,
     'plural' => 0,
   );
@@ -518,6 +502,14 @@ function hk_translations_translations_defaults() {
     'context' => 'tmgmt_ui_job_overview:default:field:tmgmt_job:state:label',
     'location' => 'views:tmgmt_ui_job_overview:default:field:tmgmt_job:state:label',
     'translation' => 'Status',
+    'plid' => 0,
+    'plural' => 0,
+  );
+  $translations['de:views']['07cc76aa180524c247ae7ee6173947e8'] = array(
+    'source' => 'Zurücksetzen',
+    'context' => 'karten:kaufen:exposed_form:reset_button_label',
+    'location' => 'views:karten:kaufen:exposed_form:reset_button_label',
+    'translation' => 'Zurück setzen',
     'plid' => 0,
     'plural' => 0,
   );
@@ -630,6 +622,14 @@ function hk_translations_translations_defaults() {
     'context' => 'archive:default:argument:node:created_year_month:exception:title',
     'location' => 'views:archive:default:argument:node:created_year_month:exception:title',
     'translation' => 'Alle',
+    'plid' => 0,
+    'plural' => 0,
+  );
+  $translations['de:views']['0c3de679afe8d0018996f50dab6943b7'] = array(
+    'source' => 'Apartments',
+    'context' => 'admin:default:field:views:nothing:label',
+    'location' => 'views:admin:default:field:views:nothing:label',
+    'translation' => 'Wohnungen',
     'plid' => 0,
     'plural' => 0,
   );
@@ -985,19 +985,19 @@ function hk_translations_translations_defaults() {
     'plid' => 0,
     'plural' => 0,
   );
-  $translations['de:views']['1bf2dd2c0472b4e704ef5036bef5d36f'] = array(
-    'source' => 'more',
-    'context' => 'apartment:attachment_1:use_more_text',
-    'location' => 'views:apartment:attachment_1:use_more_text',
-    'translation' => 'mehr',
-    'plid' => 0,
-    'plural' => 0,
-  );
   $translations['de:views']['1cc71e71fcc9206dcf28c333796ca0ec'] = array(
     'source' => '- All -',
     'context' => 'tmgmt_local_manage_translate_task:pending:pager:expose:items_per_page_options_all_label',
     'location' => 'views:tmgmt_local_manage_translate_task:pending:pager:expose:items_per_page_options_all_label',
     'translation' => '- Alle -',
+    'plid' => 0,
+    'plural' => 0,
+  );
+  $translations['de:views']['1cf8dc5f8f80409c439c96560d28d47f'] = array(
+    'source' => 'mehr',
+    'context' => 'karten:kaufen:use_more_text',
+    'location' => 'views:karten:kaufen:use_more_text',
+    'translation' => 'mehr',
     'plid' => 0,
     'plural' => 0,
   );
@@ -1057,11 +1057,27 @@ function hk_translations_translations_defaults() {
     'plid' => 0,
     'plural' => 0,
   );
+  $translations['de:views']['203b2fd5c2a50676d9957f8f857e98e0'] = array(
+    'source' => 'Bezugsfrei ab',
+    'context' => 'apartment:details:field:field_data_field_moving_in_from:field_moving_in_from_1:label',
+    'location' => 'views:apartment:details:field:field_data_field_moving_in_from:field_moving_in_from_1:label',
+    'translation' => 'Bezugsfrei ab',
+    'plid' => 0,
+    'plural' => 0,
+  );
   $translations['de:views']['20477a5dfb11570d9013ae3c5a666fba'] = array(
     'source' => 'Reset',
     'context' => 'frontpage:feed:exposed_form:reset_button_label',
     'location' => 'views:frontpage:feed:exposed_form:reset_button_label',
     'translation' => 'Zurück setzen',
+    'plid' => 0,
+    'plural' => 0,
+  );
+  $translations['de:views']['20ae9c57087f02daadd046b6d007c633'] = array(
+    'source' => 'Zimmer',
+    'context' => 'karten:kaufen:field:search_api_index_solr_node_index:field_apart_rooms:label',
+    'location' => 'views:karten:kaufen:field:search_api_index_solr_node_index:field_apart_rooms:label',
+    'translation' => 'Zimmer',
     'plid' => 0,
     'plural' => 0,
   );
@@ -1185,14 +1201,6 @@ function hk_translations_translations_defaults() {
     'plid' => 0,
     'plural' => 0,
   );
-  $translations['de:views']['251a3ad2cf8d97130f48ba2a522b160d'] = array(
-    'source' => 'Living space',
-    'context' => 'apartment:details:field:field_data_field_apart_living_space:field_apart_living_space:label',
-    'location' => 'views:apartment:details:field:field_data_field_apart_living_space:field_apart_living_space:label',
-    'translation' => 'Fläche',
-    'plid' => 0,
-    'plural' => 0,
-  );
   $translations['de:views']['252b3fe77d9de8dccd21aba586969a45'] = array(
     'source' => '- All -',
     'context' => 'feeds_log:page_1:pager:expose:items_per_page_options_all_label',
@@ -1265,6 +1273,14 @@ function hk_translations_translations_defaults() {
     'plid' => 0,
     'plural' => 0,
   );
+  $translations['de:views']['28789ef47c818a78e11385bd5446f728'] = array(
+    'source' => 'Zurücksetzen',
+    'context' => 'karten:mieten:exposed_form:reset_button_label',
+    'location' => 'views:karten:mieten:exposed_form:reset_button_label',
+    'translation' => 'Zurück setzen',
+    'plid' => 0,
+    'plural' => 0,
+  );
   $translations['de:views']['28dca994833f3d82d27d4a247936de28'] = array(
     'source' => 'Title',
     'context' => 'admin_views_node:default:filter:node:title:expose:label',
@@ -1310,14 +1326,6 @@ function hk_translations_translations_defaults() {
     'context' => 'workflow_history_per_entity:default:field:workflow_node_history:uid:label',
     'location' => 'views:workflow_history_per_entity:default:field:workflow_node_history:uid:label',
     'translation' => 'Benutzer',
-    'plid' => 0,
-    'plural' => 0,
-  );
-  $translations['de:views']['2a56a8eef4d347f62f2969e4a5bd5177'] = array(
-    'source' => 'Reset',
-    'context' => 'karten:mieten:exposed_form:reset_button_label',
-    'location' => 'views:karten:mieten:exposed_form:reset_button_label',
-    'translation' => 'Zurück setzen',
     'plid' => 0,
     'plural' => 0,
   );
@@ -1649,18 +1657,6 @@ function hk_translations_translations_defaults() {
     'plid' => 0,
     'plural' => 0,
   );
-  $translations['de:views']['3593451f6ec1bd4fa9e0c736c215075f'] = array(
-    'source' => '[field_object_images]
-<h2>[field_object_ref_title_field]</h2>
-<p>[field_object_ref_field_object_txt_map_popup_value]</p>
-<div class="wo"><i class="icon-hk-icon-location"></i>[field_object_ref_field_address_thoroughfare], [field_bezirk]</div>
-<div class="tablehead"><span class="id">Object ID</span><span class="rooms">Rooms</span><span class="space">Space (.ca)</span><span class="price">Price</span><span class="more">&nbsp;</span></div>',
-    'context' => 'karten:default:field:search_api_index_solr_node_index:field_object_ref_field_object_txt_map_popup_value:alter:text',
-    'location' => 'views:karten:default:field:search_api_index_solr_node_index:field_object_ref_field_object_txt_map_popup_value:alter:text',
-    'translation' => '[field_object_images] <h2>[field_object_ref_title_field]</h2> <p>[field_object_ref_field_object_txt_map_popup_value]</p> <div class="wo"><i class="icon-hk-icon-location"></i>[field_object_ref_field_address_thoroughfare], [field_bezirk]</div> <div class="tablehead"><span class="id">Objekt ID</span><span class="rooms">Zimmer</span><span class="space">Fläche (.ca)</span><span class="price">Preis</span><span class="more">&nbsp;</span></div>',
-    'plid' => 0,
-    'plural' => 0,
-  );
   $translations['de:views']['359b173b728f148f15cf9ece8fe9a5c9'] = array(
     'source' => 'Role',
     'context' => 'admin_views_user:default:filter:users_roles:rid:expose:label',
@@ -1674,14 +1670,6 @@ function hk_translations_translations_defaults() {
     'context' => 'archive:block:exposed_form:submit_button',
     'location' => 'views:archive:block:exposed_form:submit_button',
     'translation' => 'Anwenden',
-    'plid' => 0,
-    'plural' => 0,
-  );
-  $translations['de:views']['35df30f59c83f2c0c0a14c2b15ce4214'] = array(
-    'source' => 'more',
-    'context' => 'apartment:panel_pane_3:use_more_text',
-    'location' => 'views:apartment:panel_pane_3:use_more_text',
-    'translation' => 'mehr',
     'plid' => 0,
     'plural' => 0,
   );
@@ -1725,6 +1713,14 @@ function hk_translations_translations_defaults() {
     'plid' => 0,
     'plural' => 0,
   );
+  $translations['de:views']['381de5bfb5dd5c5d07d0e1c04276ef2b'] = array(
+    'source' => 'Zurücksetzen',
+    'context' => 'karten:map_block:exposed_form:reset_button_label',
+    'location' => 'views:karten:map_block:exposed_form:reset_button_label',
+    'translation' => 'Zurück setzen',
+    'plid' => 0,
+    'plural' => 0,
+  );
   $translations['de:views']['383687ff4f60eac89e42cce26c12043f'] = array(
     'source' => 'Country',
     'context' => 'order_locations:default:filter:ip_geoloc:country:expose:label',
@@ -1746,6 +1742,14 @@ function hk_translations_translations_defaults() {
     'context' => 'tmgmt_local_task_overview:closed:filter:tmgmt_local_task:title:expose:label',
     'location' => 'views:tmgmt_local_task_overview:closed:filter:tmgmt_local_task:title:expose:label',
     'translation' => 'Titel',
+    'plid' => 0,
+    'plural' => 0,
+  );
+  $translations['de:views']['3917cdd6ae073923983932e728b0ec6b'] = array(
+    'source' => 'mehr',
+    'context' => 'apartment:panel_pane_2:use_more_text',
+    'location' => 'views:apartment:panel_pane_2:use_more_text',
+    'translation' => 'mehr',
     'plid' => 0,
     'plural' => 0,
   );
@@ -1901,14 +1905,6 @@ function hk_translations_translations_defaults() {
     'plid' => 0,
     'plural' => 0,
   );
-  $translations['de:views']['3e929e66c2b118b712aae46d97b5830d'] = array(
-    'source' => 'more',
-    'context' => 'karten:map_page:use_more_text',
-    'location' => 'views:karten:map_page:use_more_text',
-    'translation' => 'mehr',
-    'plid' => 0,
-    'plural' => 0,
-  );
   $translations['de:views']['3eeb47339ec3a7585a084e253db13132'] = array(
     'source' => 'Apply',
     'context' => 'tmgmt_local_task_overview:unassigned:exposed_form:submit_button',
@@ -2034,6 +2030,14 @@ function hk_translations_translations_defaults() {
     'context' => 'tmgmt_ui_job_messages:default:pager:expose:items_per_page_label',
     'location' => 'views:tmgmt_ui_job_messages:default:pager:expose:items_per_page_label',
     'translation' => 'Elemente pro Seite',
+    'plid' => 0,
+    'plural' => 0,
+  );
+  $translations['de:views']['4338e7f4119016d7030b80626c1115a1'] = array(
+    'source' => 'Zimmer',
+    'context' => 'apartment:details:field:field_data_field_apart_rooms:field_apart_rooms:label',
+    'location' => 'views:apartment:details:field:field_data_field_apart_rooms:field_apart_rooms:label',
+    'translation' => 'Zimmer',
     'plid' => 0,
     'plural' => 0,
   );
@@ -2341,6 +2345,14 @@ function hk_translations_translations_defaults() {
     'plid' => 0,
     'plural' => 0,
   );
+  $translations['de:views']['4d5877b383ebe8587dad0ffeb88364b8'] = array(
+    'source' => 'mehr',
+    'context' => 'karten:default:use_more_text',
+    'location' => 'views:karten:default:use_more_text',
+    'translation' => 'mehr',
+    'plid' => 0,
+    'plural' => 0,
+  );
   $translations['de:views']['4d86f83d2eb951b9797d776b07ed08b0'] = array(
     'source' => 'Language',
     'context' => 'workflow_summary:page_2:field:workflow_scheduled_transition:language:label',
@@ -2493,14 +2505,6 @@ function hk_translations_translations_defaults() {
     'plid' => 0,
     'plural' => 0,
   );
-  $translations['de:views']['5140accc1b711e571acd246637cab028'] = array(
-    'source' => 'more',
-    'context' => 'apartment:objektadresse:use_more_text',
-    'location' => 'views:apartment:objektadresse:use_more_text',
-    'translation' => 'mehr',
-    'plid' => 0,
-    'plural' => 0,
-  );
   $translations['de:views']['517845d131c7b442a3cf3bbfeb3ba5bc'] = array(
     'source' => '- Choose an operation -',
     'context' => 'admin:page_2:noop',
@@ -2538,14 +2542,6 @@ function hk_translations_translations_defaults() {
     'context' => 'tmgmt_local_task_overview:unassigned:use_more_text',
     'location' => 'views:tmgmt_local_task_overview:unassigned:use_more_text',
     'translation' => 'mehr',
-    'plid' => 0,
-    'plural' => 0,
-  );
-  $translations['de:views']['53fde074261a410a6f50e77f51e4d021'] = array(
-    'source' => 'Sleeping rooms',
-    'context' => 'apartment:details:field:field_data_field_apart_sleeping_rooms:field_apart_sleeping_rooms:label',
-    'location' => 'views:apartment:details:field:field_data_field_apart_sleeping_rooms:field_apart_sleeping_rooms:label',
-    'translation' => 'Schlafzimmer',
     'plid' => 0,
     'plural' => 0,
   );
@@ -2701,14 +2697,6 @@ function hk_translations_translations_defaults() {
     'plid' => 0,
     'plural' => 0,
   );
-  $translations['de:views']['5887fd9b95b9caf7138bc16abcc6314b'] = array(
-    'source' => 'Reset',
-    'context' => 'karten:map_block:exposed_form:reset_button_label',
-    'location' => 'views:karten:map_block:exposed_form:reset_button_label',
-    'translation' => 'Zurück setzen',
-    'plid' => 0,
-    'plural' => 0,
-  );
   $translations['de:views']['59a7d172e6b39c9d1b61c5187cb44292'] = array(
     'source' => 'Apply',
     'context' => 'redirects:page_admin:exposed_form:submit_button',
@@ -2738,14 +2726,6 @@ function hk_translations_translations_defaults() {
     'context' => 'map_ol_centered_on_visitor_location:block:exposed_form:submit_button',
     'location' => 'views:map_ol_centered_on_visitor_location:block:exposed_form:submit_button',
     'translation' => 'Anwenden',
-    'plid' => 0,
-    'plural' => 0,
-  );
-  $translations['de:views']['5abf3428586c55e71a9e88f4fcd7f942'] = array(
-    'source' => 'Reset',
-    'context' => 'karten:kaufen:exposed_form:reset_button_label',
-    'location' => 'views:karten:kaufen:exposed_form:reset_button_label',
-    'translation' => 'Zurück setzen',
     'plid' => 0,
     'plural' => 0,
   );
@@ -2794,6 +2774,14 @@ function hk_translations_translations_defaults() {
     'context' => 'grouped_apartments_map:page:exposed_form:submit_button',
     'location' => 'views:grouped_apartments_map:page:exposed_form:submit_button',
     'translation' => 'Anwenden',
+    'plid' => 0,
+    'plural' => 0,
+  );
+  $translations['de:views']['5cdcd0a5826bfc46ad6b8caa22528abf'] = array(
+    'source' => 'Fläche',
+    'context' => 'apartment:details:field:field_data_field_apart_living_space:field_apart_living_space:label',
+    'location' => 'views:apartment:details:field:field_data_field_apart_living_space:field_apart_living_space:label',
+    'translation' => 'Fläche',
     'plid' => 0,
     'plural' => 0,
   );
@@ -3021,6 +3009,14 @@ function hk_translations_translations_defaults() {
     'plid' => 0,
     'plural' => 0,
   );
+  $translations['de:views']['65c90df64c4e8157c23555f363cd09a0'] = array(
+    'source' => 'mehr',
+    'context' => 'karten:map_block:use_more_text',
+    'location' => 'views:karten:map_block:use_more_text',
+    'translation' => 'mehr',
+    'plid' => 0,
+    'plural' => 0,
+  );
   $translations['de:views']['660970e7944b231f02e6eaa5b95c0ada'] = array(
     'source' => '- All -',
     'context' => 'tmgmt_local_manage_translate_task:rejected:pager:expose:items_per_page_options_all_label',
@@ -3149,6 +3145,14 @@ function hk_translations_translations_defaults() {
     'plid' => 0,
     'plural' => 0,
   );
+  $translations['de:views']['6b9a1a2d4e2b0e5131be6edc2ba7570e'] = array(
+    'source' => 'Zurücksetzen',
+    'context' => 'karten:default:exposed_form:reset_button_label',
+    'location' => 'views:karten:default:exposed_form:reset_button_label',
+    'translation' => 'Zurück setzen',
+    'plid' => 0,
+    'plural' => 0,
+  );
   $translations['de:views']['6bf2a89f8fb1766e6df8cec1c98b192a'] = array(
     'source' => 'Language From',
     'context' => 'tmgmt_local_task_overview:closed:filter:tmgmt_job:source_language:expose:label',
@@ -3165,11 +3169,11 @@ function hk_translations_translations_defaults() {
     'plid' => 0,
     'plural' => 0,
   );
-  $translations['de:views']['6c0f30b4c0f73300ae82ea0340d60890'] = array(
-    'source' => 'more',
-    'context' => 'karten:kaufen:use_more_text',
-    'location' => 'views:karten:kaufen:use_more_text',
-    'translation' => 'mehr',
+  $translations['de:views']['6c7a577ad2345197785eace7c0cf7dd1'] = array(
+    'source' => 'Zurücksetzen',
+    'context' => 'karten:map_page:exposed_form:reset_button_label',
+    'location' => 'views:karten:map_page:exposed_form:reset_button_label',
+    'translation' => 'Zurück setzen',
     'plid' => 0,
     'plural' => 0,
   );
@@ -3277,14 +3281,6 @@ function hk_translations_translations_defaults() {
     'plid' => 0,
     'plural' => 0,
   );
-  $translations['de:views']['704fc8f6545354246e769b26b6512f7e'] = array(
-    'source' => 'more',
-    'context' => 'apartment:panel_pane_2:use_more_text',
-    'location' => 'views:apartment:panel_pane_2:use_more_text',
-    'translation' => 'mehr',
-    'plid' => 0,
-    'plural' => 0,
-  );
   $translations['de:views']['7054d1684b5a7ec6e0c58e2a442a4eb8'] = array(
     'source' => 'Apply',
     'context' => 'frontpage:default:exposed_form:submit_button',
@@ -3314,14 +3310,6 @@ function hk_translations_translations_defaults() {
     'context' => 'crm_core_contacts:default:pager:expose:items_per_page_options_all_label',
     'location' => 'views:crm_core_contacts:default:pager:expose:items_per_page_options_all_label',
     'translation' => '- Alle -',
-    'plid' => 0,
-    'plural' => 0,
-  );
-  $translations['de:views']['714007268369e47f5ebd81b2362e8a32'] = array(
-    'source' => 'more',
-    'context' => 'karten:mlt:use_more_text',
-    'location' => 'views:karten:mlt:use_more_text',
-    'translation' => 'mehr',
     'plid' => 0,
     'plural' => 0,
   );
@@ -3469,14 +3457,6 @@ function hk_translations_translations_defaults() {
     'plid' => 0,
     'plural' => 0,
   );
-  $translations['de:views']['76fc27123cba5b42395482f08bb439d8'] = array(
-    'source' => 'Reset',
-    'context' => 'karten:mlt:exposed_form:reset_button_label',
-    'location' => 'views:karten:mlt:exposed_form:reset_button_label',
-    'translation' => 'Zurück setzen',
-    'plid' => 0,
-    'plural' => 0,
-  );
   $translations['de:views']['77152d1949538a945329ba477ca8938c'] = array(
     'source' => 'Word count',
     'context' => 'tmgmt_ui_job_items:default:field:tmgmt_job_item:word_count_1:label',
@@ -3594,6 +3574,14 @@ function hk_translations_translations_defaults() {
     'context' => 'tmgmt_local_task_overview:completed:pager:expose:items_per_page_label',
     'location' => 'views:tmgmt_local_task_overview:completed:pager:expose:items_per_page_label',
     'translation' => 'Elemente pro Seite',
+    'plid' => 0,
+    'plural' => 0,
+  );
+  $translations['de:views']['7cbd65fe49c0b766951e6fa791e484f7'] = array(
+    'source' => 'Fläche',
+    'context' => 'karten:kaufen:field:search_api_index_solr_node_index:field_apart_living_space:label',
+    'location' => 'views:karten:kaufen:field:search_api_index_solr_node_index:field_apart_living_space:label',
+    'translation' => 'Fläche',
     'plid' => 0,
     'plural' => 0,
   );
@@ -3933,6 +3921,14 @@ function hk_translations_translations_defaults() {
     'plid' => 0,
     'plural' => 0,
   );
+  $translations['de:views']['8ab007242c9a88d2a2eac338bda172b8'] = array(
+    'source' => 'mehr',
+    'context' => 'apartment:panel_pane_1:use_more_text',
+    'location' => 'views:apartment:panel_pane_1:use_more_text',
+    'translation' => 'mehr',
+    'plid' => 0,
+    'plural' => 0,
+  );
   $translations['de:views']['8ad3edd4503fcaffbb41ebe4a04dc642'] = array(
     'source' => '- All -',
     'context' => 'media_default:default:pager:expose:items_per_page_options_all_label',
@@ -4130,14 +4126,6 @@ function hk_translations_translations_defaults() {
     'context' => 'admin_views_file:default:field:file_managed:type:label',
     'location' => 'views:admin_views_file:default:field:file_managed:type:label',
     'translation' => 'Typ',
-    'plid' => 0,
-    'plural' => 0,
-  );
-  $translations['de:views']['936034f1f588eed1c4210c4c2a8cc283'] = array(
-    'source' => 'more',
-    'context' => 'apartment:panel_pane_1:use_more_text',
-    'location' => 'views:apartment:panel_pane_1:use_more_text',
-    'translation' => 'mehr',
     'plid' => 0,
     'plural' => 0,
   );
@@ -4445,14 +4433,6 @@ function hk_translations_translations_defaults() {
     'plid' => 0,
     'plural' => 0,
   );
-  $translations['de:views']['9c8b0c740c54935bcfc11e0f15232389'] = array(
-    'source' => 'more',
-    'context' => 'karten:mieten:use_more_text',
-    'location' => 'views:karten:mieten:use_more_text',
-    'translation' => 'mehr',
-    'plid' => 0,
-    'plural' => 0,
-  );
   $translations['de:views']['9cddaed7a9ed7590201248f9fdc85c62'] = array(
     'source' => 'Author',
     'context' => 'admin_views_file:default:field:users:name:label',
@@ -4530,6 +4510,14 @@ function hk_translations_translations_defaults() {
     'context' => 'visitor_log_lite:block_1:exposed_form:reset_button_label',
     'location' => 'views:visitor_log_lite:block_1:exposed_form:reset_button_label',
     'translation' => 'Zurück setzen',
+    'plid' => 0,
+    'plural' => 0,
+  );
+  $translations['de:views']['9fdae03d4687b2628a5f64d1920fe043'] = array(
+    'source' => 'mehr',
+    'context' => 'apartment:panel_pane_4:use_more_text',
+    'location' => 'views:apartment:panel_pane_4:use_more_text',
+    'translation' => 'mehr',
     'plid' => 0,
     'plural' => 0,
   );
@@ -4773,14 +4761,6 @@ function hk_translations_translations_defaults() {
     'plid' => 0,
     'plural' => 0,
   );
-  $translations['de:views']['a86b35c51ca03abcb89fd9c46c31f0a8'] = array(
-    'source' => 'more',
-    'context' => 'apartment:block_2:use_more_text',
-    'location' => 'views:apartment:block_2:use_more_text',
-    'translation' => 'mehr',
-    'plid' => 0,
-    'plural' => 0,
-  );
   $translations['de:views']['a87a2898a4ad78d7fc4d162bf05dbea8'] = array(
     'source' => 'Object',
     'context' => 'karten:map_page:relationship:search_api_index_solr_node_index:field_object_ref:label',
@@ -4885,6 +4865,14 @@ function hk_translations_translations_defaults() {
     'plid' => 0,
     'plural' => 0,
   );
+  $translations['de:views']['abd4a253208fe10b65bc29b600b5f069'] = array(
+    'source' => 'mehr',
+    'context' => 'karten:map_page:use_more_text',
+    'location' => 'views:karten:map_page:use_more_text',
+    'translation' => 'mehr',
+    'plid' => 0,
+    'plural' => 0,
+  );
   $translations['de:views']['abd789d89b248f4cc514ac64aba94f9d'] = array(
     'source' => '- All -',
     'context' => 'feeds_log:default:pager:expose:items_per_page_options_all_label',
@@ -4973,6 +4961,14 @@ function hk_translations_translations_defaults() {
     'plid' => 0,
     'plural' => 0,
   );
+  $translations['de:views']['aeff18b68c9066c8d940423459c02e6a'] = array(
+    'source' => 'mehr',
+    'context' => 'karten:mieten:use_more_text',
+    'location' => 'views:karten:mieten:use_more_text',
+    'translation' => 'mehr',
+    'plid' => 0,
+    'plural' => 0,
+  );
   $translations['de:views']['afa142294e1ac32ee262c09018fc15ca'] = array(
     'source' => 'Type',
     'context' => 'tmgmt_ui_job_items:default:field:tmgmt_job_item:type:label',
@@ -5045,14 +5041,6 @@ function hk_translations_translations_defaults() {
     'plid' => 0,
     'plural' => 0,
   );
-  $translations['de:views']['b1b47bef5e8ee9f3f965800ccca7299f'] = array(
-    'source' => 'Heating type',
-    'context' => 'apartment:details:field:field_data_field_heating_type:field_heating_type:label',
-    'location' => 'views:apartment:details:field:field_data_field_heating_type:field_heating_type:label',
-    'translation' => 'Heizung',
-    'plid' => 0,
-    'plural' => 0,
-  );
   $translations['de:views']['b1cd6ff368d5d7cac4b3a401fdc3f463'] = array(
     'source' => 'Apply',
     'context' => 'media_default:default:exposed_form:submit_button',
@@ -5089,14 +5077,6 @@ function hk_translations_translations_defaults() {
     'source' => 'more',
     'context' => 'workflow_history_per_entity:default:use_more_text',
     'location' => 'views:workflow_history_per_entity:default:use_more_text',
-    'translation' => 'mehr',
-    'plid' => 0,
-    'plural' => 0,
-  );
-  $translations['de:views']['b2e5006b2861b86791a3c5b10178fe21'] = array(
-    'source' => 'more',
-    'context' => 'karten:map_block:use_more_text',
-    'location' => 'views:karten:map_block:use_more_text',
     'translation' => 'mehr',
     'plid' => 0,
     'plural' => 0,
@@ -5301,11 +5281,27 @@ function hk_translations_translations_defaults() {
     'plid' => 0,
     'plural' => 0,
   );
+  $translations['de:views']['bb8a9112e6d9dd94b04124f4b0ef42e3'] = array(
+    'source' => 'Heizung',
+    'context' => 'apartment:details:field:field_data_field_heating_type:field_heating_type:label',
+    'location' => 'views:apartment:details:field:field_data_field_heating_type:field_heating_type:label',
+    'translation' => 'Heizung',
+    'plid' => 0,
+    'plural' => 0,
+  );
   $translations['de:views']['bbc77a1cdab11596a4c69c5bb37e970a'] = array(
     'source' => 'Progress',
     'context' => 'tmgmt_local_manage_translate_task:completed:field:tmgmt_local_task:progress:label',
     'location' => 'views:tmgmt_local_manage_translate_task:completed:field:tmgmt_local_task:progress:label',
     'translation' => 'Fortschritt',
+    'plid' => 0,
+    'plural' => 0,
+  );
+  $translations['de:views']['bc1282538166ea69078a45a7b50cbca4'] = array(
+    'source' => 'mehr',
+    'context' => 'karten:mlt:use_more_text',
+    'location' => 'views:karten:mlt:use_more_text',
+    'translation' => 'mehr',
     'plid' => 0,
     'plural' => 0,
   );
@@ -5330,14 +5326,6 @@ function hk_translations_translations_defaults() {
     'context' => 'tmgmt_local_task_overview:completed:rules_component::rules_tmgmt_local_task_assign_to_me',
     'location' => 'views:tmgmt_local_task_overview:completed:rules_component::rules_tmgmt_local_task_assign_to_me',
     'translation' => 'Aufgabe annehmen',
-    'plid' => 0,
-    'plural' => 0,
-  );
-  $translations['de:views']['bd30480800845984504a276bc3382758'] = array(
-    'source' => 'more',
-    'context' => 'apartment:panel_pane_4:use_more_text',
-    'location' => 'views:apartment:panel_pane_4:use_more_text',
-    'translation' => 'mehr',
     'plid' => 0,
     'plural' => 0,
   );
@@ -5466,14 +5454,6 @@ function hk_translations_translations_defaults() {
     'context' => 'admin_views_file:default:use_more_text',
     'location' => 'views:admin_views_file:default:use_more_text',
     'translation' => 'mehr',
-    'plid' => 0,
-    'plural' => 0,
-  );
-  $translations['de:views']['c19b54e0d337ce8764ab835044f34adf'] = array(
-    'source' => 'Year built',
-    'context' => 'apartment:details:field:field_data_field_year_built:field_year_built:label',
-    'location' => 'views:apartment:details:field:field_data_field_year_built:field_year_built:label',
-    'translation' => 'Baujahr',
     'plid' => 0,
     'plural' => 0,
   );
@@ -5941,6 +5921,14 @@ function hk_translations_translations_defaults() {
     'plid' => 0,
     'plural' => 0,
   );
+  $translations['de:views']['d18fbb44e80af3a37087e27de073445a'] = array(
+    'source' => 'mehr',
+    'context' => 'apartment:block_2:use_more_text',
+    'location' => 'views:apartment:block_2:use_more_text',
+    'translation' => 'mehr',
+    'plid' => 0,
+    'plural' => 0,
+  );
   $translations['de:views']['d1995a59ff0381fc32cff23d3861f201'] = array(
     'source' => 'Progress',
     'context' => 'tmgmt_local_task_overview:completed:field:tmgmt_local_task:progress:label',
@@ -6077,14 +6065,6 @@ function hk_translations_translations_defaults() {
     'plid' => 0,
     'plural' => 0,
   );
-  $translations['de:views']['d571fcff8402f1dea49b7e57f08e4da9'] = array(
-    'source' => 'Reset',
-    'context' => 'karten:default:exposed_form:reset_button_label',
-    'location' => 'views:karten:default:exposed_form:reset_button_label',
-    'translation' => 'Zurück setzen',
-    'plid' => 0,
-    'plural' => 0,
-  );
   $translations['de:views']['d5b768fb7b894556c1364f3bc6664938'] = array(
     'source' => 'more',
     'context' => 'frontpage:page:use_more_text',
@@ -6181,14 +6161,6 @@ function hk_translations_translations_defaults() {
     'plid' => 0,
     'plural' => 0,
   );
-  $translations['de:views']['d9327341574fae76560a824f5fcbb0a3'] = array(
-    'source' => 'Rooms',
-    'context' => 'apartment:details:field:field_data_field_apart_rooms:field_apart_rooms:label',
-    'location' => 'views:apartment:details:field:field_data_field_apart_rooms:field_apart_rooms:label',
-    'translation' => 'Zimmer',
-    'plid' => 0,
-    'plural' => 0,
-  );
   $translations['de:views']['d932794af4b757ba3f9dec00c28dbec0'] = array(
     'source' => 'more',
     'context' => 'hk_map_and_search:map_front:use_more_text',
@@ -6250,6 +6222,18 @@ function hk_translations_translations_defaults() {
     'context' => 'tmgmt_ui_job_item_messages:default:relationship:tmgmt_message:uid:label',
     'location' => 'views:tmgmt_ui_job_item_messages:default:relationship:tmgmt_message:uid:label',
     'translation' => 'Benutzer',
+    'plid' => 0,
+    'plural' => 0,
+  );
+  $translations['de:views']['da9f349fd356f98d1c8f46b7e1b9cf51'] = array(
+    'source' => '[field_object_images]
+<!--<h2>[field_object_ref_title_field]</h2>-->
+<p>[field_object_ref_field_object_txt_map_popup_value]</p>
+<div class="wo"><i class="icon-hk-icon-location"></i>[field_object_ref_field_address_thoroughfare] [field_bezirk]</div>
+<div class="tablehead"><span class="id">Object ID</span><span class="rooms">Rooms</span><span class="space">Space (ca.)</span><span class="price">Price</span><span class="more">&nbsp;</span></div>',
+    'context' => 'karten:default:field:search_api_index_solr_node_index:field_object_ref_field_object_txt_map_popup_value:alter:text',
+    'location' => 'views:karten:default:field:search_api_index_solr_node_index:field_object_ref_field_object_txt_map_popup_value:alter:text',
+    'translation' => '[field_object_images] <h2>[field_object_ref_title_field]</h2> <p>[field_object_ref_field_object_txt_map_popup_value]</p> <div class="wo"><i class="icon-hk-icon-location"></i>[field_object_ref_field_address_thoroughfare], [field_bezirk]</div> <div class="tablehead"><span class="id">Objekt ID</span><span class="rooms">Zimmer</span><span class="space">Fläche (ca.)</span><span class="price">Preis</span><span class="more">&nbsp;</span></div>',
     'plid' => 0,
     'plural' => 0,
   );
@@ -6333,14 +6317,6 @@ function hk_translations_translations_defaults() {
     'plid' => 0,
     'plural' => 0,
   );
-  $translations['de:views']['dcf1069e4ed2cb136a0f5c1e1bf89f0c'] = array(
-    'source' => 'more',
-    'context' => 'apartment:details:use_more_text',
-    'location' => 'views:apartment:details:use_more_text',
-    'translation' => 'mehr',
-    'plid' => 0,
-    'plural' => 0,
-  );
   $translations['de:views']['dd08602159b7d4c53b505966140473a6'] = array(
     'source' => 'Apply',
     'context' => 'tmgmt_local_task_items:block:exposed_form:submit_button',
@@ -6405,14 +6381,6 @@ function hk_translations_translations_defaults() {
     'plid' => 0,
     'plural' => 0,
   );
-  $translations['de:views']['de85bd526fbff261be5afa92bf23cb83'] = array(
-    'source' => 'Bathrooms',
-    'context' => 'apartment:details:field:field_data_field_apart_bathrooms:field_apart_bathrooms:label',
-    'location' => 'views:apartment:details:field:field_data_field_apart_bathrooms:field_apart_bathrooms:label',
-    'translation' => 'Badezimmer',
-    'plid' => 0,
-    'plural' => 0,
-  );
   $translations['de:views']['de87074a088de203abd28054ccb689cf'] = array(
     'source' => 'Apply',
     'context' => 'tmgmt_ui_job_overview:default:exposed_form:submit_button',
@@ -6426,14 +6394,6 @@ function hk_translations_translations_defaults() {
     'context' => 'backlinks:block:exposed_form:reset_button_label',
     'location' => 'views:backlinks:block:exposed_form:reset_button_label',
     'translation' => 'Zurück setzen',
-    'plid' => 0,
-    'plural' => 0,
-  );
-  $translations['de:views']['df4731f292fd3f9e857aa5b4e624ae1b'] = array(
-    'source' => 'more',
-    'context' => 'karten:default:use_more_text',
-    'location' => 'views:karten:default:use_more_text',
-    'translation' => 'mehr',
     'plid' => 0,
     'plural' => 0,
   );
@@ -6554,14 +6514,6 @@ function hk_translations_translations_defaults() {
     'context' => 'crm_anfragen:page:use_more_text',
     'location' => 'views:crm_anfragen:page:use_more_text',
     'translation' => 'mehr',
-    'plid' => 0,
-    'plural' => 0,
-  );
-  $translations['de:views']['e4c3ca090d9d4b9f9dd6d76a075fe3ff'] = array(
-    'source' => '<!--<a href="/node/[field_obj_apartments-target_id]?destination=/admin/content/dash" title="Wohnung ansehen">-->[field_obj_apartments]<!--</a>--> | <a href="/node/[field_obj_apartments-target_id]/edit?destination=/admin/content/dash" title="Wohnung bearbeiten">bearbeiten</a><!-- | <a href="/node/[field_obj_apartments-target_id]/translate?destination=/admin/content/dash" title="Wohnung übersetzen">übersetzen</a>-->',
-    'context' => 'admin:default:field:field_data_field_obj_apartments:field_obj_apartments:alter:text',
-    'location' => 'views:admin:default:field:field_data_field_obj_apartments:field_obj_apartments:alter:text',
-    'translation' => 'Bearbeiten',
     'plid' => 0,
     'plural' => 0,
   );
@@ -6773,6 +6725,22 @@ function hk_translations_translations_defaults() {
     'plid' => 0,
     'plural' => 0,
   );
+  $translations['de:views']['ea86e862dac5674f35b9a17f6dc04eae'] = array(
+    'source' => 'Baujahr',
+    'context' => 'apartment:details:field:field_data_field_year_built:field_year_built:label',
+    'location' => 'views:apartment:details:field:field_data_field_year_built:field_year_built:label',
+    'translation' => 'Baujahr',
+    'plid' => 0,
+    'plural' => 0,
+  );
+  $translations['de:views']['ea8ae0abe48cc7fb08e35c2475b15764'] = array(
+    'source' => 'Zurücksetzen',
+    'context' => 'karten:mlt:exposed_form:reset_button_label',
+    'location' => 'views:karten:mlt:exposed_form:reset_button_label',
+    'translation' => 'Zurück setzen',
+    'plid' => 0,
+    'plural' => 0,
+  );
   $translations['de:views']['eac3b4f6c2856cbffebe5d058aabacb5'] = array(
     'source' => '- All -',
     'context' => 'feeds_log:page_2:pager:expose:items_per_page_options_all_label',
@@ -6909,14 +6877,6 @@ function hk_translations_translations_defaults() {
     'plid' => 0,
     'plural' => 0,
   );
-  $translations['de:views']['efcfe938fc8d3091c2cc78086dd53e0b'] = array(
-    'source' => 'Reset',
-    'context' => 'karten:map_page:exposed_form:reset_button_label',
-    'location' => 'views:karten:map_page:exposed_form:reset_button_label',
-    'translation' => 'Zurück setzen',
-    'plid' => 0,
-    'plural' => 0,
-  );
   $translations['de:views']['efe7fa48ee33649f349313c7efd3d802'] = array(
     'source' => 'Apply',
     'context' => 'backlinks:block:exposed_form:submit_button',
@@ -6989,6 +6949,14 @@ function hk_translations_translations_defaults() {
     'plid' => 0,
     'plural' => 0,
   );
+  $translations['de:views']['f1099e72d5e712ab7d5eb9d8f18d0d2f'] = array(
+    'source' => '<a href="/node/[field_obj_apartments-target_id]?destination=/admin/content/dash" title="Wohnung ansehen">[field_obj_apartments]</a> | <a href="/node/[field_obj_apartments-target_id]/edit?destination=/admin/content/dash" title="Wohnung bearbeiten">bearbeiten</a> | [field_save_workflow]<!-- | <a href="/node/[field_obj_apartments-target_id]/translate?destination=/admin/content/dash" title="Wohnung übersetzen">übersetzen</a>-->',
+    'context' => 'admin:default:field:field_data_field_obj_apartments:field_obj_apartments:alter:text',
+    'location' => 'views:admin:default:field:field_data_field_obj_apartments:field_obj_apartments:alter:text',
+    'translation' => 'Bearbeiten',
+    'plid' => 0,
+    'plural' => 0,
+  );
   $translations['de:views']['f14cbb9b9ef974a4d26757305dc3d723'] = array(
     'source' => 'Language To',
     'context' => 'tmgmt_local_task_overview:my_tasks:filter:tmgmt_job:target_language:expose:label',
@@ -7042,6 +7010,14 @@ function hk_translations_translations_defaults() {
     'context' => 'map_ol_centered_on_visitor_location:block:exposed_form:reset_button_label',
     'location' => 'views:map_ol_centered_on_visitor_location:block:exposed_form:reset_button_label',
     'translation' => 'Zurück setzen',
+    'plid' => 0,
+    'plural' => 0,
+  );
+  $translations['de:views']['f381124b8d798d9ff2b6c81860193b7a'] = array(
+    'source' => 'Schlafzimmer',
+    'context' => 'apartment:details:field:field_data_field_apart_sleeping_rooms:field_apart_sleeping_rooms:label',
+    'location' => 'views:apartment:details:field:field_data_field_apart_sleeping_rooms:field_apart_sleeping_rooms:label',
+    'translation' => 'Schlafzimmer',
     'plid' => 0,
     'plural' => 0,
   );
@@ -7165,14 +7141,6 @@ function hk_translations_translations_defaults() {
     'plid' => 0,
     'plural' => 0,
   );
-  $translations['de:views']['f5456069167a5e8a580c21748c91049f'] = array(
-    'source' => 'Moving in from',
-    'context' => 'apartment:details:field:field_data_field_moving_in_from:field_moving_in_from_1:label',
-    'location' => 'views:apartment:details:field:field_data_field_moving_in_from:field_moving_in_from_1:label',
-    'translation' => 'Bezugsfrei ab',
-    'plid' => 0,
-    'plural' => 0,
-  );
   $translations['de:views']['f55645f4ae4397268a796b9f0df8a9c9'] = array(
     'source' => 'more',
     'context' => 'karten:page_1:use_more_text',
@@ -7277,6 +7245,14 @@ function hk_translations_translations_defaults() {
     'plid' => 0,
     'plural' => 0,
   );
+  $translations['de:views']['f7175c2f78fa468428a168f140cbe6ee'] = array(
+    'source' => 'mehr',
+    'context' => 'apartment:objektadresse:use_more_text',
+    'location' => 'views:apartment:objektadresse:use_more_text',
+    'translation' => 'mehr',
+    'plid' => 0,
+    'plural' => 0,
+  );
   $translations['de:views']['f7353ddda5ccffb5a9a6be6667be5d9c'] = array(
     'source' => 'Language From',
     'context' => 'tmgmt_local_task_overview:completed:filter:tmgmt_job:source_language:expose:label',
@@ -7322,6 +7298,14 @@ function hk_translations_translations_defaults() {
     'context' => 'admin_views_node:default:action::views_bulk_operations_delete_item',
     'location' => 'views:admin_views_node:default:action::views_bulk_operations_delete_item',
     'translation' => 'Löschen',
+    'plid' => 0,
+    'plural' => 0,
+  );
+  $translations['de:views']['f91abcf5f042e0552b21f0dc2b06540d'] = array(
+    'source' => 'mehr',
+    'context' => 'apartment:attachment_1:use_more_text',
+    'location' => 'views:apartment:attachment_1:use_more_text',
+    'translation' => 'mehr',
     'plid' => 0,
     'plural' => 0,
   );
@@ -7429,10 +7413,34 @@ function hk_translations_translations_defaults() {
     'plid' => 0,
     'plural' => 0,
   );
+  $translations['de:views']['fd429c9e637185de1ab7fcc3bfa98453'] = array(
+    'source' => 'mehr',
+    'context' => 'apartment:panel_pane_3:use_more_text',
+    'location' => 'views:apartment:panel_pane_3:use_more_text',
+    'translation' => 'mehr',
+    'plid' => 0,
+    'plural' => 0,
+  );
   $translations['de:views']['fded7db98bfc63e665673301715df2e1'] = array(
     'source' => 'more',
     'context' => 'taxonomy_term:default:use_more_text',
     'location' => 'views:taxonomy_term:default:use_more_text',
+    'translation' => 'mehr',
+    'plid' => 0,
+    'plural' => 0,
+  );
+  $translations['de:views']['fdfbbaf4c3b5d58a1c779bd55d84cf13'] = array(
+    'source' => 'Badezimmer',
+    'context' => 'apartment:details:field:field_data_field_apart_bathrooms:field_apart_bathrooms:label',
+    'location' => 'views:apartment:details:field:field_data_field_apart_bathrooms:field_apart_bathrooms:label',
+    'translation' => 'Badezimmer',
+    'plid' => 0,
+    'plural' => 0,
+  );
+  $translations['de:views']['fe03ce4affc02773782e123c2c83599c'] = array(
+    'source' => 'mehr',
+    'context' => 'apartment:details:use_more_text',
+    'location' => 'views:apartment:details:use_more_text',
     'translation' => 'mehr',
     'plid' => 0,
     'plural' => 0,
