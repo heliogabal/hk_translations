@@ -36,5 +36,18 @@ function hk_translations_locale_default_languages() {
     'prefix' => '',
     'weight' => -9,
   );
+  // Exported language: zh-hans.
+  $languages['zh-hans'] = array(
+    'language' => 'zh-hans',
+    'name' => 'Chinese, Simplified',
+    'native' => '中',
+    'direction' => 0,
+    'enabled' => 1,
+    'plurals' => 2,
+    'formula' => '($n!=1)',
+    'domain' => '',
+    'prefix' => 'zh',
+    'weight' => -8,
+  );
   return $languages;
 }

@@ -55,6 +55,7 @@ function hk_translations_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'Übersetzer' => 'Übersetzer',
+      'Übersetzungsgeber' => 'Übersetzungsgeber',
     ),
     'module' => 'tmgmt_local',
   );
@@ -74,6 +75,7 @@ function hk_translations_user_default_permissions() {
     'name' => 'translate admin strings',
     'roles' => array(
       'administrator' => 'administrator',
+      'Übersetzungsgeber' => 'Übersetzungsgeber',
     ),
     'module' => 'i18n_string',
   );
@@ -84,6 +86,7 @@ function hk_translations_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'Übersetzer' => 'Übersetzer',
+      'Übersetzungsgeber' => 'Übersetzungsgeber',
     ),
     'module' => 'entity_translation',
   );
@@ -93,6 +96,7 @@ function hk_translations_user_default_permissions() {
     'name' => 'translate interface',
     'roles' => array(
       'administrator' => 'administrator',
+      'Übersetzungsgeber' => 'Übersetzungsgeber',
     ),
     'module' => 'locale',
   );
@@ -111,6 +115,7 @@ function hk_translations_user_default_permissions() {
     'name' => 'translate user-defined strings',
     'roles' => array(
       'administrator' => 'administrator',
+      'Übersetzungsgeber' => 'Übersetzungsgeber',
     ),
     'module' => 'i18n_string',
   );
