@@ -19,7 +19,7 @@ function hk_translations_locale_default_languages() {
     'enabled' => 1,
     'plurals' => 2,
     'formula' => '($n!=1)',
-    'domain' => 'hk.new.drupalforgood.eu',
+    'domain' => 'hk.dev.drupalforgood.eu',
     'prefix' => '',
     'weight' => -10,
   );
@@ -32,7 +32,7 @@ function hk_translations_locale_default_languages() {
     'enabled' => 1,
     'plurals' => 0,
     'formula' => '',
-    'domain' => 'en.hk.new.drupalforgood.eu',
+    'domain' => 'en.hk.dev.drupalforgood.eu',
     'prefix' => '',
     'weight' => -9,
   );
