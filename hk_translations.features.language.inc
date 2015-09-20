@@ -19,7 +19,7 @@ function hk_translations_locale_default_languages() {
     'enabled' => 1,
     'plurals' => 2,
     'formula' => '($n!=1)',
-    'domain' => 'hk.dev.drupalforgood.eu',
+    'domain' => 'herbert-kohlmeyer.de',
     'prefix' => '',
     'weight' => -10,
   );
@@ -32,7 +32,7 @@ function hk_translations_locale_default_languages() {
     'enabled' => 1,
     'plurals' => 0,
     'formula' => '',
-    'domain' => 'en.hk.dev.drupalforgood.eu',
+    'domain' => 'herbert-kohlmeyer.com',
     'prefix' => '',
     'weight' => -9,
   );
