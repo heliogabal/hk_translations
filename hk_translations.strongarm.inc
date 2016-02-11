@@ -50,7 +50,7 @@ function hk_translations_strongarm() {
     'enabled' => 1,
     'plurals' => '0',
     'formula' => '',
-    'domain' => 'en.hk.new.drupalforgood.eu',
+    'domain' => '',
     'prefix' => '',
     'weight' => '-9',
     'javascript' => '',
@@ -75,7 +75,7 @@ function hk_translations_strongarm() {
         'language' => 'fallback_language_negotiation_provider_callback',
       ),
       'file' => 'sites/all/modules/contrib/fallback_language_negotation/fallback_language_negotiation.module',
-      'cache' => 1,
+      'cache' => 0,
     ),
     'language-default' => array(
       'callbacks' => array(
@@ -168,8 +168,8 @@ function hk_translations_strongarm() {
     'locale-session' => '-8',
     'locale-user' => '-7',
     'locale-browser' => '-6',
-    'fallback_language_negotiation_provider' => '-5',
     'language-default' => '-4',
+    'fallback_language_negotiation_provider' => '0',
   );
   $export['locale_language_providers_weight_language_content'] = $strongarm;
 

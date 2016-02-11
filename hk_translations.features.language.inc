@@ -19,8 +19,8 @@ function hk_translations_locale_default_languages() {
     'enabled' => 1,
     'plurals' => 2,
     'formula' => '($n!=1)',
-    'domain' => 'herbert-kohlmeyer.de',
-    'prefix' => '',
+    'domain' => '',
+    'prefix' => 'de',
     'weight' => -10,
   );
   // Exported language: en.
@@ -32,7 +32,7 @@ function hk_translations_locale_default_languages() {
     'enabled' => 1,
     'plurals' => 0,
     'formula' => '',
-    'domain' => 'herbert-kohlmeyer.com',
+    'domain' => '',
     'prefix' => '',
     'weight' => -9,
   );
