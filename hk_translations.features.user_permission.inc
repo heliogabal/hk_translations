@@ -10,64 +10,22 @@
 function hk_translations_user_default_permissions() {
   $permissions = array();
 
-  // Exported permission: 'accept translation jobs'.
-  $permissions['accept translation jobs'] = array(
-    'name' => 'accept translation jobs',
+  // Exported permission: 'administer entity translation'.
+  $permissions['administer entity translation'] = array(
+    'name' => 'administer entity translation',
     'roles' => array(
       'administrator' => 'administrator',
-      'Übersetzungsgeber' => 'Übersetzungsgeber',
     ),
-    'module' => 'tmgmt',
+    'module' => 'entity_translation',
   );
 
-  // Exported permission: 'administer tmgmt'.
-  $permissions['administer tmgmt'] = array(
-    'name' => 'administer tmgmt',
+  // Exported permission: 'toggle field translatability'.
+  $permissions['toggle field translatability'] = array(
+    'name' => 'toggle field translatability',
     'roles' => array(
       'administrator' => 'administrator',
     ),
-    'module' => 'tmgmt',
-  );
-
-  // Exported permission: 'administer translation tasks'.
-  $permissions['administer translation tasks'] = array(
-    'name' => 'administer translation tasks',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'Übersetzungsgeber' => 'Übersetzungsgeber',
-    ),
-    'module' => 'tmgmt_local',
-  );
-
-  // Exported permission: 'create translation jobs'.
-  $permissions['create translation jobs'] = array(
-    'name' => 'create translation jobs',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'Übersetzungsgeber' => 'Übersetzungsgeber',
-    ),
-    'module' => 'tmgmt',
-  );
-
-  // Exported permission: 'provide translation services'.
-  $permissions['provide translation services'] = array(
-    'name' => 'provide translation services',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'Übersetzer' => 'Übersetzer',
-      'Übersetzungsgeber' => 'Übersetzungsgeber',
-    ),
-    'module' => 'tmgmt_local',
-  );
-
-  // Exported permission: 'submit translation jobs'.
-  $permissions['submit translation jobs'] = array(
-    'name' => 'submit translation jobs',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'Übersetzungsgeber' => 'Übersetzungsgeber',
-    ),
-    'module' => 'tmgmt',
+    'module' => 'entity_translation',
   );
 
   // Exported permission: 'translate admin strings'.
@@ -91,6 +49,25 @@ function hk_translations_user_default_permissions() {
     'module' => 'entity_translation',
   );
 
+  // Exported permission: 'translate content'.
+  $permissions['translate content'] = array(
+    'name' => 'translate content',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'admintooluser' => 'admintooluser',
+      'Übersetzer' => 'Übersetzer',
+      'Übersetzungsgeber' => 'Übersetzungsgeber',
+    ),
+    'module' => 'translation',
+  );
+
+  // Exported permission: 'translate file entities'.
+  $permissions['translate file entities'] = array(
+    'name' => 'translate file entities',
+    'roles' => array(),
+    'module' => 'entity_translation',
+  );
+
   // Exported permission: 'translate interface'.
   $permissions['translate interface'] = array(
     'name' => 'translate interface',
@@ -107,6 +84,13 @@ function hk_translations_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
     ),
+    'module' => 'entity_translation',
+  );
+
+  // Exported permission: 'translate taxonomy_term entities'.
+  $permissions['translate taxonomy_term entities'] = array(
+    'name' => 'translate taxonomy_term entities',
+    'roles' => array(),
     'module' => 'entity_translation',
   );
 

@@ -13,6 +13,353 @@ function hk_translations_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'entity_translation_entity_types';
+  $strongarm->value = array(
+    'node' => 'node',
+    'taxonomy_term' => 'taxonomy_term',
+    'file' => 'file',
+    'crm_core_contact' => 0,
+    'user' => 0,
+  );
+  $export['entity_translation_entity_types'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'entity_translation_hide_translation_links_apartment';
+  $strongarm->value = 0;
+  $export['entity_translation_hide_translation_links_apartment'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'entity_translation_hide_translation_links_expose';
+  $strongarm->value = 0;
+  $export['entity_translation_hide_translation_links_expose'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'entity_translation_hide_translation_links_kartenmarker';
+  $strongarm->value = 1;
+  $export['entity_translation_hide_translation_links_kartenmarker'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'entity_translation_hide_translation_links_kieze_schattenobjekte';
+  $strongarm->value = 0;
+  $export['entity_translation_hide_translation_links_kieze_schattenobjekte'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'entity_translation_hide_translation_links_objekt';
+  $strongarm->value = 0;
+  $export['entity_translation_hide_translation_links_objekt'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'entity_translation_hide_translation_links_oeffnungszeit';
+  $strongarm->value = 0;
+  $export['entity_translation_hide_translation_links_oeffnungszeit'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'entity_translation_hide_translation_links_page';
+  $strongarm->value = 0;
+  $export['entity_translation_hide_translation_links_page'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'entity_translation_hide_translation_links_referenz';
+  $strongarm->value = 1;
+  $export['entity_translation_hide_translation_links_referenz'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'entity_translation_node_metadata_apartment';
+  $strongarm->value = '0';
+  $export['entity_translation_node_metadata_apartment'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'entity_translation_node_metadata_expose';
+  $strongarm->value = '0';
+  $export['entity_translation_node_metadata_expose'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'entity_translation_node_metadata_kartenmarker';
+  $strongarm->value = '0';
+  $export['entity_translation_node_metadata_kartenmarker'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'entity_translation_node_metadata_kieze_schattenobjekte';
+  $strongarm->value = '0';
+  $export['entity_translation_node_metadata_kieze_schattenobjekte'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'entity_translation_node_metadata_objekt';
+  $strongarm->value = '0';
+  $export['entity_translation_node_metadata_objekt'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'entity_translation_node_metadata_oeffnungszeit';
+  $strongarm->value = '0';
+  $export['entity_translation_node_metadata_oeffnungszeit'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'entity_translation_node_metadata_page';
+  $strongarm->value = '0';
+  $export['entity_translation_node_metadata_page'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'entity_translation_node_metadata_referenz';
+  $strongarm->value = '0';
+  $export['entity_translation_node_metadata_referenz'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'entity_translation_revision_enabled';
+  $strongarm->value = TRUE;
+  $export['entity_translation_revision_enabled'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'entity_translation_settings_file__audio';
+  $strongarm->value = array(
+    'default_language' => 'xx-et-default',
+    'hide_language_selector' => 1,
+    'exclude_language_none' => 0,
+    'lock_language' => 0,
+    'shared_fields_original_only' => 0,
+  );
+  $export['entity_translation_settings_file__audio'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'entity_translation_settings_file__document';
+  $strongarm->value = array(
+    'default_language' => 'xx-et-default',
+    'hide_language_selector' => 1,
+    'exclude_language_none' => 0,
+    'lock_language' => 0,
+    'shared_fields_original_only' => 0,
+  );
+  $export['entity_translation_settings_file__document'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'entity_translation_settings_file__image';
+  $strongarm->value = array(
+    'default_language' => 'xx-et-default',
+    'hide_language_selector' => 1,
+    'exclude_language_none' => 1,
+    'lock_language' => 0,
+    'shared_fields_original_only' => 0,
+  );
+  $export['entity_translation_settings_file__image'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'entity_translation_settings_file__video';
+  $strongarm->value = array(
+    'default_language' => 'xx-et-default',
+    'hide_language_selector' => 1,
+    'exclude_language_none' => 0,
+    'lock_language' => 0,
+    'shared_fields_original_only' => 0,
+  );
+  $export['entity_translation_settings_file__video'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'entity_translation_settings_node__apartment';
+  $strongarm->value = array(
+    'default_language' => 'xx-et-current',
+    'hide_language_selector' => 0,
+    'exclude_language_none' => 1,
+    'lock_language' => 1,
+    'shared_fields_original_only' => 1,
+  );
+  $export['entity_translation_settings_node__apartment'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'entity_translation_settings_node__kartenmarker';
+  $strongarm->value = array(
+    'default_language' => 'und',
+    'hide_language_selector' => 0,
+    'exclude_language_none' => 0,
+    'lock_language' => 0,
+    'shared_fields_original_only' => 0,
+  );
+  $export['entity_translation_settings_node__kartenmarker'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'entity_translation_settings_node__objekt';
+  $strongarm->value = array(
+    'default_language' => 'xx-et-current',
+    'hide_language_selector' => 0,
+    'exclude_language_none' => 1,
+    'lock_language' => 1,
+    'shared_fields_original_only' => 1,
+  );
+  $export['entity_translation_settings_node__objekt'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'entity_translation_settings_node__oeffnungszeit';
+  $strongarm->value = array(
+    'default_language' => 'und',
+    'hide_language_selector' => 0,
+    'exclude_language_none' => 0,
+    'lock_language' => 0,
+    'shared_fields_original_only' => 0,
+  );
+  $export['entity_translation_settings_node__oeffnungszeit'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'entity_translation_settings_node__page';
+  $strongarm->value = array(
+    'default_language' => 'xx-et-current',
+    'hide_language_selector' => 0,
+    'exclude_language_none' => 1,
+    'lock_language' => 1,
+    'shared_fields_original_only' => 0,
+  );
+  $export['entity_translation_settings_node__page'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'entity_translation_settings_node__referenz';
+  $strongarm->value = array(
+    'default_language' => 'und',
+    'hide_language_selector' => 0,
+    'exclude_language_none' => 0,
+    'lock_language' => 0,
+    'shared_fields_original_only' => 0,
+  );
+  $export['entity_translation_settings_node__referenz'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'entity_translation_settings_taxonomy_term__bilder_objekt_id';
+  $strongarm->value = array(
+    'default_language' => 'xx-et-default',
+    'hide_language_selector' => 1,
+    'exclude_language_none' => 0,
+    'lock_language' => 0,
+    'shared_fields_original_only' => 0,
+  );
+  $export['entity_translation_settings_taxonomy_term__bilder_objekt_id'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'entity_translation_settings_taxonomy_term__category';
+  $strongarm->value = array(
+    'default_language' => 'xx-et-current',
+    'hide_language_selector' => 0,
+    'exclude_language_none' => 1,
+    'lock_language' => 0,
+    'shared_fields_original_only' => 0,
+  );
+  $export['entity_translation_settings_taxonomy_term__category'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'entity_translation_settings_taxonomy_term__salutation';
+  $strongarm->value = array(
+    'default_language' => 'xx-et-default',
+    'hide_language_selector' => 0,
+    'exclude_language_none' => 1,
+    'lock_language' => 0,
+    'shared_fields_original_only' => 0,
+  );
+  $export['entity_translation_settings_taxonomy_term__salutation'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'entity_translation_settings_taxonomy_term__vocabulary_3';
+  $strongarm->value = array(
+    'default_language' => 'xx-et-current',
+    'hide_language_selector' => 0,
+    'exclude_language_none' => 1,
+    'lock_language' => 1,
+    'shared_fields_original_only' => 0,
+  );
+  $export['entity_translation_settings_taxonomy_term__vocabulary_3'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'entity_translation_settings_taxonomy_term__vocabulary_5';
+  $strongarm->value = array(
+    'default_language' => 'xx-et-current',
+    'hide_language_selector' => 0,
+    'exclude_language_none' => 1,
+    'lock_language' => 0,
+    'shared_fields_original_only' => 0,
+  );
+  $export['entity_translation_settings_taxonomy_term__vocabulary_5'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'entity_translation_settings_taxonomy_term__vocabulary_6';
+  $strongarm->value = array(
+    'default_language' => 'xx-et-current',
+    'hide_language_selector' => 0,
+    'exclude_language_none' => 1,
+    'lock_language' => 1,
+    'shared_fields_original_only' => 0,
+  );
+  $export['entity_translation_settings_taxonomy_term__vocabulary_6'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'entity_translation_shared_labels';
+  $strongarm->value = 1;
+  $export['entity_translation_shared_labels'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'i18n_string_allowed_formats';
   $strongarm->value = array(
     'filtered_html' => 'filtered_html',
@@ -48,11 +395,11 @@ function hk_translations_strongarm() {
     'native' => 'EN',
     'direction' => '0',
     'enabled' => 1,
-    'plurals' => '0',
+    'plurals' => 0,
     'formula' => '',
-    'domain' => '',
+    'domain' => 'herbert-kohlmeyer.com',
     'prefix' => '',
-    'weight' => '-9',
+    'weight' => -9,
     'javascript' => '',
   );
   $export['language_default'] = $strongarm;
@@ -75,7 +422,7 @@ function hk_translations_strongarm() {
         'language' => 'fallback_language_negotiation_provider_callback',
       ),
       'file' => 'sites/all/modules/contrib/fallback_language_negotation/fallback_language_negotiation.module',
-      'cache' => 0,
+      'cache' => 1,
     ),
     'language-default' => array(
       'callbacks' => array(
@@ -168,8 +515,8 @@ function hk_translations_strongarm() {
     'locale-session' => '-8',
     'locale-user' => '-7',
     'locale-browser' => '-6',
+    'fallback_language_negotiation_provider' => '-5',
     'language-default' => '-4',
-    'fallback_language_negotiation_provider' => '0',
   );
   $export['locale_language_providers_weight_language_content'] = $strongarm;
 
