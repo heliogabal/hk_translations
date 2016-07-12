@@ -100,59 +100,59 @@ function hk_translations_translations_de_defaults() {
     'plural' => 0,
   );
   $translatables[] = t('My Contacts', array(), array('context' => ''));
-  $translations['de:views']['0871a93c5c44465f3fc8427b08297622'] = array(
-    'source' => '<div class="no-results">There is no meeting scheduled for this week.</div>',
-    'context' => 'agent_calender:block_1:empty:views:area:content',
-    'location' => 'views:agent_calender:block_1:empty:views:area:content',
-    'translation' => 'Kein Termin in dieser Woche.',
-    'plid' => 0,
-    'plural' => 0,
-  );
-  $translatables[] = t('<div class="no-results">There is no meeting scheduled for this week.</div>', array(), array('context' => 'agent_calender:block_1:empty:views:area:content'));
-  $translations['de:views']['63cf170e28b1b29c19da57da61a6bd89'] = array(
-    'source' => 'My Contacts',
-    'context' => 'agent_central:page:title',
-    'location' => 'views:agent_central:page:title',
-    'translation' => 'Meine Kontakte',
-    'plid' => 0,
-    'plural' => 0,
-  );
-  $translatables[] = t('My Contacts', array(), array('context' => 'agent_central:page:title'));
-  $translations['de:views']['7656c2ea6c2c8098aa326c5d01d2fa8f'] = array(
-    'source' => '<div class="no-results">There is no meeting scheduled for this year.</div>',
+  $translations['de:views']['0ac9739252c3b0e5e2f5faba418ed184'] = array(
+    'source' => 'Kein Termin in diesem Jahr.',
     'context' => 'agent_calender:block_3:empty:views:area:content',
     'location' => 'views:agent_calender:block_3:empty:views:area:content',
     'translation' => 'Kein Termin in diesem Jahr.',
     'plid' => 0,
     'plural' => 0,
   );
-  $translatables[] = t('<div class="no-results">There is no meeting scheduled for this year.</div>', array(), array('context' => 'agent_calender:block_3:empty:views:area:content'));
-  $translations['de:views']['acecce89f04e2f13852420c7ee448166'] = array(
-    'source' => '<h2 class="block-title">My Contacts</h2>',
-    'context' => 'agent_central:page:header:views:area:content',
-    'location' => 'views:agent_central:page:header:views:area:content',
-    'translation' => ' <h2 class="block-title">Meine Kontakte</h2> ',
+  $translatables[] = t('Kein Termin in diesem Jahr.', array(), array('context' => 'agent_calender:block_3:empty:views:area:content'));
+  $translations['de:views']['31149bade1f73ed7ba33591efd60ec73'] = array(
+    'source' => 'Kein Termin in dieser Woche.',
+    'context' => 'agent_calender:block_1:empty:views:area:content',
+    'location' => 'views:agent_calender:block_1:empty:views:area:content',
+    'translation' => 'Kein Termin in dieser Woche.',
     'plid' => 0,
     'plural' => 0,
   );
-  $translatables[] = t('<h2 class="block-title">My Contacts</h2>', array(), array('context' => 'agent_central:page:header:views:area:content'));
-  $translations['de:views']['b9d4959f7a3d19e719d3367f26a16364'] = array(
-    'source' => 'Due Date',
+  $translatables[] = t('Kein Termin in dieser Woche.', array(), array('context' => 'agent_calender:block_1:empty:views:area:content'));
+  $translations['de:views']['87ebc1f7aa01fcecd1e52b0d6196d24d'] = array(
+    'source' => 'fällig am',
     'context' => 'unclaimed_leads_table_view:block_4:field:field_data_field_activity_date:field_activity_date:label',
     'location' => 'views:unclaimed_leads_table_view:block_4:field:field_data_field_activity_date:field_activity_date:label',
     'translation' => 'fällig am',
     'plid' => 0,
     'plural' => 0,
   );
-  $translatables[] = t('Due Date', array(), array('context' => 'unclaimed_leads_table_view:block_4:field:field_data_field_activity_date:field_activity_date:label'));
-  $translations['de:views']['fd141640564e2ff08ef7f0f5d3efa038'] = array(
-    'source' => 'My Contacts',
+  $translatables[] = t('fällig am', array(), array('context' => 'unclaimed_leads_table_view:block_4:field:field_data_field_activity_date:field_activity_date:label'));
+  $translations['de:views']['92f789fce66b48b1310bedeb4bba5321'] = array(
+    'source' => 'Meine Kontakte',
+    'context' => 'agent_central:page:title',
+    'location' => 'views:agent_central:page:title',
+    'translation' => 'Meine Kontakte',
+    'plid' => 0,
+    'plural' => 0,
+  );
+  $translatables[] = t('Meine Kontakte', array(), array('context' => 'agent_central:page:title'));
+  $translations['de:views']['c1790eedc7ebc19b037924483e0b87e4'] = array(
+    'source' => ' <h2 class="block-title">Meine Kontakte</h2> ',
+    'context' => 'agent_central:page:header:views:area:content',
+    'location' => 'views:agent_central:page:header:views:area:content',
+    'translation' => ' <h2 class="block-title">Meine Kontakte</h2> ',
+    'plid' => 0,
+    'plural' => 0,
+  );
+  $translatables[] = t(' <h2 class="block-title">Meine Kontakte</h2> ', array(), array('context' => 'agent_central:page:header:views:area:content'));
+  $translations['de:views']['ced25bee2c597b6b9113f7ec707fa854'] = array(
+    'source' => 'Meine Kontakte',
     'context' => 'crm_contact_page:block_1:title',
     'location' => 'views:crm_contact_page:block_1:title',
     'translation' => 'Meine Kontakte',
     'plid' => 0,
     'plural' => 0,
   );
-  $translatables[] = t('My Contacts', array(), array('context' => 'crm_contact_page:block_1:title'));
+  $translatables[] = t('Meine Kontakte', array(), array('context' => 'crm_contact_page:block_1:title'));
   return $translations;
 }
