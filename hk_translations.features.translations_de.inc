@@ -64,6 +64,15 @@ function hk_translations_translations_de_defaults() {
     'plural' => 0,
   );
   $translatables[] = t('<div class="no-results">There is no meeting scheduled for this year.</div>', array(), array('context' => ''));
+  $translations['de:default']['bfd8b498aa9a6f44542512fcf7495dea'] = array(
+    'source' => 'Mark as completed',
+    'context' => '',
+    'location' => '/crm-core/activity/193',
+    'translation' => 'erledigt',
+    'plid' => 0,
+    'plural' => 0,
+  );
+  $translatables[] = t('Mark as completed', array(), array('context' => ''));
   $translations['de:default']['d2bc3e6523fbe8715ab8f48006f145d2'] = array(
     'source' => 'Upcomming meeting & schedule',
     'context' => '',
