@@ -19,7 +19,7 @@ function hk_translations_locale_default_languages() {
     'enabled' => 1,
     'plurals' => 2,
     'formula' => '($n!=1)',
-    'domain' => 'herbert-kohlmeyer.de',
+    'domain' => 'addweb.dev.herbert-kohlmeyer.de',
     'prefix' => '',
     'weight' => -10,
   );
@@ -32,7 +32,7 @@ function hk_translations_locale_default_languages() {
     'enabled' => 1,
     'plurals' => 0,
     'formula' => '',
-    'domain' => 'herbert-kohlmeyer.com',
+    'domain' => 'addweb.dev.herbert-kohlmeyer.com',
     'prefix' => '',
     'weight' => -9,
   );
@@ -45,7 +45,7 @@ function hk_translations_locale_default_languages() {
     'enabled' => 1,
     'plurals' => 3,
     'formula' => '(((($n%10)==1)&&(($n%100)!=11))?(0):((((($n%10)>=2)&&(($n%10)<=4))&&((($n%100)<10)||(($n%100)>=20)))?(1):2))',
-    'domain' => 'ru.herbert-kohlmeyer.com',
+    'domain' => 'addweb.dev.ru.herbert-kohlmeyer.com',
     'prefix' => '',
     'weight' => 0,
   );
