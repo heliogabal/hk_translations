@@ -456,7 +456,7 @@ function hk_translations_strongarm() {
     'language' => 'en',
     'name' => 'EN',
     'native' => 'EN',
-    'direction' => 0,
+    'direction' => '0',
     'enabled' => 1,
     'plurals' => 0,
     'formula' => '',
@@ -485,7 +485,7 @@ function hk_translations_strongarm() {
         'language' => 'fallback_language_negotiation_provider_callback',
       ),
       'file' => 'sites/all/modules/contrib/fallback_language_negotation/fallback_language_negotiation.module',
-      'cache' => 0,
+      'cache' => 1,
     ),
     'language-default' => array(
       'callbacks' => array(
